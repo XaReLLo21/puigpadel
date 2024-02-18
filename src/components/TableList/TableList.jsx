@@ -1,4 +1,5 @@
-import React, {
+/* eslint-disable react/prop-types */
+import {
   useEffect,
   useState,
   useImperativeHandle,
@@ -20,8 +21,8 @@ import './TableList.css';
 const TableList = forwardRef((props, ref) => {
   const [rows, setRows] = useState(props.rows);
   const [columns, setColumns] = useState(props.columns);
-  const searchInfo = useRef();
   const [searchedColumn, setSearchedColumns] = useState();
+  const searchInfo = useRef();
 
   useEffect(() => {
     setRows(props.rows);
@@ -80,7 +81,7 @@ const TableList = forwardRef((props, ref) => {
     ),
     onFilter: (value, record) =>
       record[dataIndex].toString().toLowerCase().includes(value.toLowerCase()),
-    onFilterDropdownVisibleChange: (visible) => {
+    onFilterDropdownOpenChange: (visible) => {
       if (visible) {
         if (searchInfo.current) setTimeout(() => searchInfo.current.select());
       }
