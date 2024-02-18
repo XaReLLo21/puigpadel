@@ -1,35 +1,46 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useEffect, useState } from 'react';
+import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [teams, setTeams] = useState([]);
+
+  useEffect(() => {
+    const getTeams = async () => {
+      const response = await fetch('http://localhost:3000/teams');
+      const data = await response.json();
+      //console.log(data);
+      setTeams(data);
+    };
+    getTeams();
+  }, []);
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <div className='leaderboard-container'>
+      <h1>Padel League Leaderboard </h1>
+      <table className='leaderboard-table'>
+        <thead>
+          <tr>
+            <th>Team</th>
+            <th>Rank</th>
+            <th>Wins</th>
+            <th>Losses</th>
+            <th>Points</th>
+          </tr>
+        </thead>
+        <tbody>
+          {teams.map((team) => (
+            <tr key={team.id}>
+              <td>{team.name}</td>
+              <td>{team.rank}</td>
+              <td>{team.wins}</td>
+              <td>{team.losses}</td>
+              <td>{team.points}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
 }
 
-export default App
+export default App;
