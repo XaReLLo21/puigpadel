@@ -1,35 +1,56 @@
 import { useEffect, useRef, useState } from 'react';
-import './App.css';
 import TableList from './components/TableList/TableList';
+import './App.css';
 
+/**
+ * Componente principal de la aplicación.
+ * @component
+ */
 function App() {
-  const [rows, setRows] = useState([]);
-  const [columns, setColumns] = useState(undefined);
-  const grid = useRef();
+  const [rows, setRows] = useState([]); // Estado para almacenar los datos de las filas de la tabla
+  const [columns, setColumns] = useState(undefined); // Estado para almacenar las columnas de la tabla
+  const grid = useRef(); // Referencia al componente TableList
 
+  /**
+   * Hook de efecto que se ejecuta al montar el componente para obtener los datos de los equipos.
+   */
   useEffect(() => {
+    /**
+     * Función para obtener los equipos desde una API.
+     * @async
+     */
     const getTeams = async () => {
-      const response = await fetch('http://localhost:3000/teams');
-      const data = await response.json();
+      try {
+        const response = await fetch('http://localhost:3000/teams');
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        const data = await response.json();
 
-      if (data.length > 0) {
-        setRows(
-          data.map((item) => {
-            return {
-              ...item,
-              name: item.name,
-              rank: item.rank,
-              wins: item.wins,
-              losses: item.losses,
-              points: item.points,
-            };
-          })
-        );
+        if (data.length > 0) {
+          setRows(
+            data.map((item) => {
+              return {
+                ...item,
+                name: item.name,
+                rank: item.rank,
+                wins: item.wins,
+                losses: item.losses,
+                points: item.points,
+              };
+            })
+          );
+        }
+      } catch (error) {
+        console.error('Error fetching teams:', error);
       }
     };
     getTeams();
   }, []);
 
+  /**
+   * Hook de efecto que se ejecuta para establecer las columnas de la tabla.
+   */
   useEffect(() => {
     setColumns([
       {
@@ -71,6 +92,10 @@ function App() {
     ]);
   }, []);
 
+  /**
+   * Renderiza el componente App.
+   * @returns {JSX.Element} Componente App
+   */
   return (
     <div className='App'>
       <TableList ref={grid} rows={rows} columns={columns} />
