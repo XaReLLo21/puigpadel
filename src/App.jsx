@@ -1,44 +1,79 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import './App.css';
+import TableList from './components/TableList/TableList';
 
 function App() {
-  const [teams, setTeams] = useState([]);
+  const [rows, setRows] = useState([]);
+  const [columns, setColumns] = useState(undefined);
+  const grid = useRef();
 
   useEffect(() => {
     const getTeams = async () => {
       const response = await fetch('http://localhost:3000/teams');
       const data = await response.json();
-      //console.log(data);
-      setTeams(data);
+
+      if (data.length > 0) {
+        setRows(
+          data.map((item) => {
+            return {
+              ...item,
+              name: item.name,
+              rank: item.rank,
+              wins: item.wins,
+              losses: item.losses,
+              points: item.points,
+            };
+          })
+        );
+      }
     };
     getTeams();
   }, []);
 
+  useEffect(() => {
+    setColumns([
+      {
+        title: 'Team',
+        dataIndex: 'name',
+        key: '0',
+        width: 80,
+        fixed: 'left',
+        ...grid.current.getColumnSearch('name'),
+      },
+      {
+        title: 'Rank',
+        dataIndex: 'rank',
+        key: '1',
+        width: 50,
+        ...grid.current.getColumnSearch('rank'),
+      },
+      {
+        title: 'Wins',
+        dataIndex: 'wins',
+        key: '2',
+        width: 50,
+        ...grid.current.getColumnSearch('wins'),
+      },
+      {
+        title: 'Losses',
+        dataIndex: 'losses',
+        key: '3',
+        width: 50,
+        ...grid.current.getColumnSearch('losses'),
+      },
+      {
+        title: 'Points',
+        dataIndex: 'points',
+        key: '4',
+        width: 50,
+        ...grid.current.getColumnSearch('points'),
+      },
+    ]);
+  }, []);
+
   return (
-    <div className='leaderboard-container'>
-      <h1>Padel League Leaderboard </h1>
-      <table className='leaderboard-table'>
-        <thead>
-          <tr>
-            <th>Team</th>
-            <th>Rank</th>
-            <th>Wins</th>
-            <th>Losses</th>
-            <th>Points</th>
-          </tr>
-        </thead>
-        <tbody>
-          {teams.map((team) => (
-            <tr key={team.id}>
-              <td>{team.name}</td>
-              <td>{team.rank}</td>
-              <td>{team.wins}</td>
-              <td>{team.losses}</td>
-              <td>{team.points}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+    <div className='App'>
+      <TableList ref={grid} rows={rows} columns={columns} />
     </div>
   );
 }
