@@ -1,0 +1,48 @@
+.btn {
+  border-radius: 20px;
+  background-color: rgba(19, 209, 19, 0.815);
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem;
+}
+
+.form-input {
+  color: #000;
+  border-radius: 20px;
+  padding: 7px;
+}
+
+.form-label {
+  font-weight: bold;
+  font-size: 18px;
+  padding-right: 10px;
+}
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  border-radius: 20px !important;
+}
+.form-content {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  max-width: 90%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  padding: 10px;
+  @media (max-width: 400px) {
+    display: flex !important;
+    flex-direction: column-reverse !important;
+  }
+}
+
+.icon {
+  color: #000 !important;
+}
+
+.ant-table.ant-table-small .ant-table-filter-trigger {
+  background: #001f3b81 !important;
+  /* color: #000 !important; */
+}
