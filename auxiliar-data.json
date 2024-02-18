@@ -1,0 +1,44 @@
+{
+  "auxiliar-teams": [
+    {
+      "id": 6,
+      "name": "Nicaragua Tigers",
+      "rank": 6,
+      "wins": 5,
+      "losses": 0,
+      "points": 15
+    },
+    {
+      "id": 7,
+      "name": "Universidad Católica PT",
+      "rank": 7,
+      "wins": 5,
+      "losses": 0,
+      "points": 15
+    },
+    {
+      "id": 8,
+      "name": "Chacarita PC",
+      "rank": 8,
+      "wins": 5,
+      "losses": 0,
+      "points": 15
+    },
+    {
+      "id": 9,
+      "name": "Reactive PT",
+      "rank": 9,
+      "wins": 5,
+      "losses": 0,
+      "points": 15
+    },
+    {
+      "id": 10,
+      "name": "Lion's Club PC",
+      "rank": 10,
+      "wins": 5,
+      "losses": 0,
+      "points": 15
+    }
+  ]
+}
