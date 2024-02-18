@@ -98,6 +98,7 @@ function App() {
    */
   return (
     <div className='App'>
+      <h1>Padel Leaderboard for PlayByPoint</h1>
       <TableList ref={grid} rows={rows} columns={columns} />
     </div>
   );
