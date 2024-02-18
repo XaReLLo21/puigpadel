@@ -1,0 +1,44 @@
+{
+    "teams": [
+        {
+            "id": 1,
+            "name": "UAM JAGUARS",
+            "rank": 1,
+            "wins": 5,
+            "losses": 1,
+            "points": 60
+        },
+        {
+            "id": 2,
+            "name": "Real Estelí PC",
+            "rank": 2,
+            "wins": 4,
+            "losses": 2,
+            "points": 56
+        },
+        {
+            "id": 3,
+            "name": "Santo Domingo PC",
+            "rank": 3,
+            "wins": 3,
+            "losses": 3,
+            "points": 15
+        },
+        {
+            "id": 4,
+            "name": "Villa Fontana PC",
+            "rank": 4,
+            "wins": 2,
+            "losses": 4,
+            "points": 15
+        },
+        {
+            "id": 5,
+            "name": "PBP Padel Team",
+            "rank": 5,
+            "wins": 1,
+            "losses": 5,
+            "points": 15
+        }
+    ]
+}
