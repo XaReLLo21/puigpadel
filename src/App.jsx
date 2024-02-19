@@ -44,7 +44,7 @@ function App() {
 
   return (
     <div>
-      <h1>PlayByPoint's Padel League</h1>
+      <h1>PlayByPoint&apos;s Padel League</h1>
 
       <header>
         <button className='button' onClick={() => setSortedBy('wins')}>
