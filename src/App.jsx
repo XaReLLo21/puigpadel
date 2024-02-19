@@ -31,8 +31,7 @@ function App() {
   }
 
   const handleSearchTeam = (event) => {
-    const { value } = event.target
-    setSearchTeam(value)
+    setSearchTeam(event.target.value)
   }
 
   const filteredTeams = searchTeam !== null && searchTeam.length > 0
@@ -73,6 +72,7 @@ function App() {
 
         {isLoading && <strong>Loading...</strong>}
         {isError && <strong>Fetch error. </strong>}
+        {filteredTeamsSorted == 0 && <strong>No teams found</strong>}
       </main>
     </div>
   )
