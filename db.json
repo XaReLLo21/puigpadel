@@ -1,44 +1,204 @@
 {
-    "teams": [
+  "leagues": [
+    {
+      "id": 1,
+      "rank": 1,
+      "name": "Equipo 1",
+      "players": [
         {
-            "id": 1,
-            "name": "UAM JAGUARS",
-            "rank": 1,
-            "wins": 5,
-            "losses": 1,
-            "points": 60
+          "id": 1,
+          "name": "Jugador 1",
+          "avatar": "https://i.pravatar.cc/48?img=1"
         },
         {
-            "id": 2,
-            "name": "Real Estelí PC",
-            "rank": 2,
-            "wins": 4,
-            "losses": 2,
-            "points": 56
-        },
-        {
-            "id": 3,
-            "name": "Santo Domingo PC",
-            "rank": 3,
-            "wins": 3,
-            "losses": 3,
-            "points": 15
-        },
-        {
-            "id": 4,
-            "name": "Villa Fontana PC",
-            "rank": 4,
-            "wins": 2,
-            "losses": 4,
-            "points": 15
-        },
-        {
-            "id": 5,
-            "name": "PBP Padel Team",
-            "rank": 5,
-            "wins": 1,
-            "losses": 5,
-            "points": 15
+          "id": 2,
+          "name": "Jugador 2",
+          "avatar": "https://i.pravatar.cc/48?img=2"
         }
-    ]
+      ],
+      "wins": 10,
+      "losses": 2,
+      "points": 28
+    },
+    {
+      "id": 2,
+      "rank": 2,
+      "name": "Equipo 2",
+      "players": [
+        {
+          "id": 3,
+          "name": "Jugador 3",
+          "avatar": "https://i.pravatar.cc/48?img=3"
+        },
+        {
+          "id": 4,
+          "name": "Jugador 4",
+          "avatar": "https://i.pravatar.cc/48?img=4"
+        }
+      ],
+      "wins": 8,
+      "losses": 4,
+      "points": 24
+    },
+    {
+      "id": 3,
+      "rank": 3,
+      "name": "Equipo 3",
+      "players": [
+        {
+          "id": 5,
+          "name": "Jugador 5",
+          "avatar": "https://i.pravatar.cc/48?img=5"
+        },
+        {
+          "id": 6,
+          "name": "Jugador 6",
+          "avatar": "https://i.pravatar.cc/48?img=6"
+        }
+      ],
+      "wins": 6,
+      "losses": 6,
+      "points": 18
+    },
+    {
+      "id": 4,
+      "rank": 4,
+      "name": "Equipo 4",
+      "players": [
+        {
+          "id": 7,
+          "name": "Jugador 7",
+          "avatar": "https://i.pravatar.cc/48?img=7"
+        },
+        {
+          "id": 8,
+          "name": "Jugador 8",
+          "avatar": "https://i.pravatar.cc/48?img=8"
+        }
+      ],
+      "wins": 5,
+      "losses": 7,
+      "points": 15
+    },
+    {
+      "id": 5,
+      "rank": 5,
+      "name": "Equipo 5",
+      "players": [
+        {
+          "id": 9,
+          "name": "Jugador 9",
+          "avatar": "https://i.pravatar.cc/48?img=9"
+        },
+        {
+          "id": 10,
+          "name": "Jugador 10",
+          "avatar": "https://i.pravatar.cc/48?img=10"
+        }
+      ],
+      "wins": 4,
+      "losses": 8,
+      "points": 12
+    },
+    {
+      "id": 6,
+      "rank": 6,
+      "name": "Equipo 6",
+      "players": [
+        {
+          "id": 11,
+          "name": "Jugador 11",
+          "avatar": "https://i.pravatar.cc/48?img=11"
+        },
+        {
+          "id": 12,
+          "name": "Jugador 12",
+          "avatar": "https://i.pravatar.cc/48?img=12"
+        }
+      ],
+      "wins": 3,
+      "losses": 9,
+      "points": 9
+    },
+    {
+      "id": 7,
+      "rank": 7,
+      "name": "Equipo 7",
+      "players": [
+        {
+          "id": 13,
+          "name": "Jugador 13",
+          "avatar": "https://i.pravatar.cc/48?img=13"
+        },
+        {
+          "id": 14,
+          "name": "Jugador 14",
+          "avatar": "https://i.pravatar.cc/48?img=14"
+        }
+      ],
+      "wins": 2,
+      "losses": 10,
+      "points": 6
+    },
+    {
+      "id": 8,
+      "rank": 8,
+      "name": "Equipo 8",
+      "players": [
+        {
+          "id": 15,
+          "name": "Jugador 15",
+          "avatar": "https://i.pravatar.cc/48?img=15"
+        },
+        {
+          "id": 16,
+          "name": "Jugador 16",
+          "avatar": "https://i.pravatar.cc/48?img=16"
+        }
+      ],
+      "wins": 1,
+      "losses": 11,
+      "points": 3
+    },
+    {
+      "id": 9,
+      "rank": 9,
+      "name": "Equipo 9",
+      "players": [
+        {
+          "id": 17,
+          "name": "Jugador 17",
+          "avatar": "https://i.pravatar.cc/48?img=17"
+        },
+        {
+          "id": 18,
+          "name": "Jugador 18",
+          "avatar": "https://i.pravatar.cc/48?img=18"
+        }
+      ],
+      "wins": 0,
+      "losses": 12,
+      "points": 0
+    },
+    {
+      "id": 10,
+      "rank": 10,
+      "name": "Equipo 10",
+      "players": [
+        {
+          "id": 19,
+          "name": "Jugador 19",
+          "avatar": "https://i.pravatar.cc/48?img=19"
+        },
+        {
+          "id": 20,
+          "name": "Jugador 20",
+          "avatar": "https://i.pravatar.cc/48?img=20"
+        }
+      ],
+      "wins": 0,
+      "losses": 12,
+      "points": 0
+    }
+  ]
 }
