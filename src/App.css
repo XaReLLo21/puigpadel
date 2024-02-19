@@ -1,42 +1,109 @@
 #root {
-  max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  width: 100%;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+header {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 50px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Player list styling */
+.player-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.player {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.player img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.button:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* Input styling */
+.input {
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+
+.input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Responsive styling */
+@media screen and (max-width: 800px) {
+  th,
+  td {
+    font-size: 14px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .player img {
+    width: 20px;
+    height: 20px;
   }
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+  .button {
+    padding: 8px 16px;
+    font-size: 14px;
   }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+  table {
+    margin-bottom: 100px;
+  }
 }

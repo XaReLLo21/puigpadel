@@ -1,44 +1,204 @@
 {
-    "teams": [
+  "leagues": [
+    {
+      "id": 1,
+      "rank": 1,
+      "name": "UAM JAGUARS",
+      "players": [
         {
-            "id": 1,
-            "name": "UAM JAGUARS",
-            "rank": 1,
-            "wins": 5,
-            "losses": 1,
-            "points": 60
+          "id": 1,
+          "name": "Cristian Blanco",
+          "avatar": "https://i.pravatar.cc/48?img=1"
         },
         {
-            "id": 2,
-            "name": "Real Estelí PC",
-            "rank": 2,
-            "wins": 4,
-            "losses": 2,
-            "points": 56
-        },
-        {
-            "id": 3,
-            "name": "Santo Domingo PC",
-            "rank": 3,
-            "wins": 3,
-            "losses": 3,
-            "points": 15
-        },
-        {
-            "id": 4,
-            "name": "Villa Fontana PC",
-            "rank": 4,
-            "wins": 2,
-            "losses": 4,
-            "points": 15
-        },
-        {
-            "id": 5,
-            "name": "PBP Padel Team",
-            "rank": 5,
-            "wins": 1,
-            "losses": 5,
-            "points": 15
+          "id": 2,
+          "name": "Lisseth Palacios",
+          "avatar": "https://i.pravatar.cc/48?img=2"
         }
-    ]
+      ],
+      "wins": 10,
+      "losses": 2,
+      "points": 28
+    },
+    {
+      "id": 2,
+      "rank": 2,
+      "name": "Saltadilla Padel",
+      "players": [
+        {
+          "id": 3,
+          "name": "Margot Robie",
+          "avatar": "https://i.pravatar.cc/48?img=3"
+        },
+        {
+          "id": 4,
+          "name": "Cristiano Ronaldo",
+          "avatar": "https://i.pravatar.cc/48?img=4"
+        }
+      ],
+      "wins": 8,
+      "losses": 4,
+      "points": 24
+    },
+    {
+      "id": 3,
+      "rank": 3,
+      "name": "Smash Squad",
+      "players": [
+        {
+          "id": 5,
+          "name": "Shawn Carter",
+          "avatar": "https://i.pravatar.cc/48?img=5"
+        },
+        {
+          "id": 6,
+          "name": "Daniel Craig",
+          "avatar": "https://i.pravatar.cc/48?img=6"
+        }
+      ],
+      "wins": 6,
+      "losses": 6,
+      "points": 18
+    },
+    {
+      "id": 4,
+      "rank": 4,
+      "name": "Racket Raiders",
+      "players": [
+        {
+          "id": 7,
+          "name": "Juan Barrera",
+          "avatar": "https://i.pravatar.cc/48?img=7"
+        },
+        {
+          "id": 8,
+          "name": "Calixto Ruiz",
+          "avatar": "https://i.pravatar.cc/48?img=8"
+        }
+      ],
+      "wins": 5,
+      "losses": 7,
+      "points": 15
+    },
+    {
+      "id": 5,
+      "rank": 5,
+      "name": "Volley Vipers",
+      "players": [
+        {
+          "id": 9,
+          "name": "Ariana Sanchez",
+          "avatar": "https://i.pravatar.cc/48?img=9"
+        },
+        {
+          "id": 10,
+          "name": "Alejandra Salazar",
+          "avatar": "https://i.pravatar.cc/48?img=10"
+        }
+      ],
+      "wins": 4,
+      "losses": 8,
+      "points": 12
+    },
+    {
+      "id": 6,
+      "rank": 6,
+      "name": "Rally Rascals",
+      "players": [
+        {
+          "id": 11,
+          "name": "Agustín Tapia",
+          "avatar": "https://i.pravatar.cc/48?img=11"
+        },
+        {
+          "id": 12,
+          "name": "Federico Stupaczuk",
+          "avatar": "https://i.pravatar.cc/48?img=12"
+        }
+      ],
+      "wins": 3,
+      "losses": 9,
+      "points": 9
+    },
+    {
+      "id": 7,
+      "rank": 7,
+      "name": "Matchpoint Mavericks",
+      "players": [
+        {
+          "id": 13,
+          "name": "Lionel Messi",
+          "avatar": "https://i.pravatar.cc/48?img=13"
+        },
+        {
+          "id": 14,
+          "name": "Diego Maradona",
+          "avatar": "https://i.pravatar.cc/48?img=14"
+        }
+      ],
+      "wins": 2,
+      "losses": 10,
+      "points": 6
+    },
+    {
+      "id": 8,
+      "rank": 8,
+      "name": "Court Commanders",
+      "players": [
+        {
+          "id": 15,
+          "name": "Juan Tello",
+          "avatar": "https://i.pravatar.cc/48?img=15"
+        },
+        {
+          "id": 16,
+          "name": "Pablo Lima",
+          "avatar": "https://i.pravatar.cc/48?img=16"
+        }
+      ],
+      "wins": 1,
+      "losses": 11,
+      "points": 3
+    },
+    {
+      "id": 9,
+      "rank": 9,
+      "name": "Lob Legends",
+      "players": [
+        {
+          "id": 17,
+          "name": "Jorge Nieto",
+          "avatar": "https://i.pravatar.cc/48?img=17"
+        },
+        {
+          "id": 18,
+          "name": "Verónica Virseda",
+          "avatar": "https://i.pravatar.cc/48?img=18"
+        }
+      ],
+      "wins": 0,
+      "losses": 12,
+      "points": 0
+    },
+    {
+      "id": 10,
+      "rank": 10,
+      "name": "EPadel Pioneers",
+      "players": [
+        {
+          "id": 19,
+          "name": "Néstor Serrano",
+          "avatar": "https://i.pravatar.cc/48?img=19"
+        },
+        {
+          "id": 20,
+          "name": "Morning Star",
+          "avatar": "https://i.pravatar.cc/48?img=20"
+        }
+      ],
+      "wins": 0,
+      "losses": 12,
+      "points": 0
+    }
+  ]
 }

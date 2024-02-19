@@ -1,107 +1,82 @@
-import { useEffect, useRef, useState } from 'react';
-import TableList from './components/TableList/TableList';
-import './App.css';
+import { useState, useEffect } from 'react'
+import TeamList from './components/TeamList'
 
-/**
- * Componente principal de la aplicación.
- * @component
- */
+import './App.css'
+
 function App() {
-  const [rows, setRows] = useState([]); // Estado para almacenar los datos de las filas de la tabla
-  const [columns, setColumns] = useState(undefined); // Estado para almacenar las columnas de la tabla
-  const grid = useRef(); // Referencia al componente TableList
+  const [teams, setTeams] = useState([])
+  const [isError, setIsError] = useState(false)
+  const [isLoading, setIsLoading] = useState(true)
 
-  /**
-   * Hook de efecto que se ejecuta al montar el componente para obtener los datos de los equipos.
-   */
+  const [sortedBy, setSortedBy] = useState(null)
+  const [searchTeam, setSearchTeam] = useState(null)
+
+  const getTeams = async () => {
+    try {
+      const response = await fetch('http://localhost:3000/leagues')
+
+      if (!response.ok) return setIsError(true)
+
+      const data = await response.json()
+      setTeams(data)
+    } catch (error) {
+      setIsError(true)
+    } finally {
+      setIsLoading(false)
+    }
+  }
+
   useEffect(() => {
-    /**
-     * Función para obtener los equipos desde una API.
-     * @async
-     */
-    const getTeams = async () => {
-      try {
-        const response = await fetch('http://localhost:3000/teams');
-        if (!response.ok) {
-          throw new Error('Network response was not ok');
-        }
-        const data = await response.json();
+    getTeams()
+  }, [])
 
-        if (data.length > 0) {
-          setRows(
-            data.map((item) => {
-              return {
-                ...item,
-                name: item.name,
-                rank: item.rank,
-                wins: item.wins,
-                losses: item.losses,
-                points: item.points,
-              };
-            })
-          );
-        }
-      } catch (error) {
-        console.error('Error fetching teams:', error);
-      }
-    };
-    getTeams();
-  }, []);
+  const handleSearchTeam = (event) => {
+    setSearchTeam(event.target.value)
+  }
 
-  /**
-   * Hook de efecto que se ejecuta para establecer las columnas de la tabla.
-   */
-  useEffect(() => {
-    setColumns([
-      {
-        title: 'Team',
-        dataIndex: 'name',
-        key: '0',
-        width: 80,
-        fixed: 'left',
-        ...grid.current.getColumnSearch('name'),
-      },
-      {
-        title: 'Rank',
-        dataIndex: 'rank',
-        key: '1',
-        width: 50,
-        ...grid.current.getColumnSearch('rank'),
-      },
-      {
-        title: 'Wins',
-        dataIndex: 'wins',
-        key: '2',
-        width: 50,
-        ...grid.current.getColumnSearch('wins'),
-      },
-      {
-        title: 'Losses',
-        dataIndex: 'losses',
-        key: '3',
-        width: 50,
-        ...grid.current.getColumnSearch('losses'),
-      },
-      {
-        title: 'Points',
-        dataIndex: 'points',
-        key: '4',
-        width: 50,
-        ...grid.current.getColumnSearch('points'),
-      },
-    ]);
-  }, []);
+  const filteredTeams = searchTeam !== null && searchTeam.length > 0
+    ? teams.filter((team) => team.name.toLowerCase().includes(searchTeam.toLowerCase()))
+    : teams
 
-  /**
-   * Renderiza el componente App.
-   * @returns {JSX.Element} Componente App
-   */
+  const filteredTeamsSorted = sortedBy !== null && sortedBy.length > 0
+    ? filteredTeams.sort((a, b) => b[sortedBy] - a[sortedBy])
+    : filteredTeams
+
   return (
-    <div className='App'>
-      <h1>Padel Leaderboard for PlayByPoint</h1>
-      <TableList ref={grid} rows={rows} columns={columns} />
+    <div>
+      <h1>PlayByPoint&apos;s Padel League</h1>
+
+      <header>
+        <button className='button' onClick={() => setSortedBy('wins')}>
+          Wins
+        </button>
+
+        <button className='button' onClick={() => setSortedBy('losses')}>
+          Losses
+        </button>
+
+        <button className='button' onClick={() => setSortedBy('points')}>
+          Points
+        </button>
+
+        <input
+          type='text'
+          onChange={handleSearchTeam}
+          placeholder='Search team'
+          className='input'
+        />
+      </header>
+
+
+      <main>
+        {teams.length > 0 && <TeamList teams={filteredTeamsSorted} />}
+
+        {isLoading && <strong>Loading...</strong>}
+        {isError && <strong>Fetch error. </strong>}
+        {filteredTeamsSorted == 0 && <strong>No teams found</strong>}
+      </main>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
