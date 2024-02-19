@@ -16,7 +16,7 @@ function TeamList(props) {
                 {props.teams.map((team) => (
                     <tr key={team.id}>
                         <td>{team.name}</td>
-                        <td id='player-list-ID' className="player-list">
+                        <td className="player-list">
                             {team.players.map((player) => (
                                 <div className="player" key={player.id}>
                                     <img src={player.avatar} alt={player.name} />
