@@ -44,25 +44,26 @@ function App() {
 
   return (
     <div>
-      <h1>League</h1>
+      <h1>PlayByPoint's Padel League</h1>
 
       <header>
-        <button onClick={() => setSortedBy('wins')}>
+        <button className='button' onClick={() => setSortedBy('wins')}>
           Wins
         </button>
 
-        <button onClick={() => setSortedBy('losses')}>
+        <button className='button' onClick={() => setSortedBy('losses')}>
           Losses
         </button>
 
-        <button onClick={() => setSortedBy('points')}>
+        <button className='button' onClick={() => setSortedBy('points')}>
           Points
         </button>
 
         <input
           type='text'
           onChange={handleSearchTeam}
-          placeholder='Filter name'
+          placeholder='Search team'
+          className='input'
         />
       </header>
 
