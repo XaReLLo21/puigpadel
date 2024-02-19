@@ -11,10 +11,6 @@ function App() {
   const [sortedBy, setSortedBy] = useState(null)
   const [searchTeam, setSearchTeam] = useState(null)
 
-  useEffect(() => {
-    getTeams()
-  }, [])
-
   const getTeams = async () => {
     try {
       const response = await fetch('http://localhost:3000/leagues')
@@ -29,6 +25,10 @@ function App() {
       setIsLoading(false)
     }
   }
+
+  useEffect(() => {
+    getTeams()
+  }, [])
 
   const handleSearchTeam = (event) => {
     setSearchTeam(event.target.value)
