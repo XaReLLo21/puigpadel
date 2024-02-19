@@ -1,7 +1,6 @@
-/* eslint-disable react/prop-types */
 function TeamList(props) {
     return (
-        <table width='100%'>
+        <table>
             <thead>
                 <tr>
                     <th>Team</th>
@@ -17,10 +16,10 @@ function TeamList(props) {
                 {props.teams.map((team) => (
                     <tr key={team.id}>
                         <td>{team.name}</td>
-                        <td style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', columnGap: '2rem' }}>
+                        <td id='player-list-ID' className="player-list">
                             {team.players.map((player) => (
-                                <div style={{ display: 'flex', alignItems: 'center', columnGap: '1rem' }} key={player.id}>
-                                    <img src={player.avatar} alt={player.name} style={{ borderRadius: '100%' }} />
+                                <div className="player" key={player.id}>
+                                    <img src={player.avatar} alt={player.name} />
                                     <span>{player.name}</span>
                                 </div>
                             ))}
