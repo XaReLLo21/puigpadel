@@ -14,7 +14,6 @@ header {
   flex-wrap: wrap;
 }
 
-/* Table styling */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -30,7 +29,6 @@ th {
   background-color: #f2f2f2;
 }
 
-/* Player list styling */
 .player-list {
   display: flex;
   flex-wrap: wrap;
@@ -72,7 +70,6 @@ th {
   border-color: #0056b3;
 }
 
-/* Input styling */
 .input {
   padding: 10px;
   margin: 5px;
@@ -87,11 +84,11 @@ th {
   outline: none;
 }
 
-/* Responsive styling */
 @media screen and (max-width: 800px) {
   th,
   td {
     font-size: 14px;
+    min-width: 120px;
   }
 
   .player img {
@@ -105,5 +102,8 @@ th {
   }
   table {
     margin-bottom: 100px;
+    overflow-x: auto;
+    display: block;
+    white-space: nowrap;
   }
 }
