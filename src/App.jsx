@@ -11,9 +11,12 @@ function App() {
   const [sortedBy, setSortedBy] = useState(null)
   const [searchTeam, setSearchTeam] = useState(null)
 
+  const $DevURL = 'http://localhost:3000/leagues';
+  const $PRDURL = 'https://my-json-server.typicode.com/InNominePatris/PBP-LEADERBOARD-APP/leagues';
+
   const getTeams = async () => {
     try {
-      const response = await fetch('http://localhost:3000/leagues')
+      const response = await fetch($PRDURL)
 
       if (!response.ok) return setIsError(true)
 
