@@ -3,16 +3,16 @@
     {
       "id": 1,
       "rank": 1,
-      "name": "Equipo 1",
+      "name": "UAM JAGUARS",
       "players": [
         {
           "id": 1,
-          "name": "Jugador 1",
+          "name": "Cristian Blanco",
           "avatar": "https://i.pravatar.cc/48?img=1"
         },
         {
           "id": 2,
-          "name": "Jugador 2",
+          "name": "Lisseth Palacios",
           "avatar": "https://i.pravatar.cc/48?img=2"
         }
       ],
@@ -23,16 +23,16 @@
     {
       "id": 2,
       "rank": 2,
-      "name": "Equipo 2",
+      "name": "Saltadilla Padel",
       "players": [
         {
           "id": 3,
-          "name": "Jugador 3",
+          "name": "Margot Robie",
           "avatar": "https://i.pravatar.cc/48?img=3"
         },
         {
           "id": 4,
-          "name": "Jugador 4",
+          "name": "Cristiano Ronaldo",
           "avatar": "https://i.pravatar.cc/48?img=4"
         }
       ],
@@ -43,16 +43,16 @@
     {
       "id": 3,
       "rank": 3,
-      "name": "Equipo 3",
+      "name": "Smash Squad",
       "players": [
         {
           "id": 5,
-          "name": "Jugador 5",
+          "name": "Shawn Carter",
           "avatar": "https://i.pravatar.cc/48?img=5"
         },
         {
           "id": 6,
-          "name": "Jugador 6",
+          "name": "Daniel Craig",
           "avatar": "https://i.pravatar.cc/48?img=6"
         }
       ],
@@ -63,16 +63,16 @@
     {
       "id": 4,
       "rank": 4,
-      "name": "Equipo 4",
+      "name": "Racket Raiders",
       "players": [
         {
           "id": 7,
-          "name": "Jugador 7",
+          "name": "Juan Barrera",
           "avatar": "https://i.pravatar.cc/48?img=7"
         },
         {
           "id": 8,
-          "name": "Jugador 8",
+          "name": "Calixto Ruiz",
           "avatar": "https://i.pravatar.cc/48?img=8"
         }
       ],
@@ -83,16 +83,16 @@
     {
       "id": 5,
       "rank": 5,
-      "name": "Equipo 5",
+      "name": "Volley Vipers",
       "players": [
         {
           "id": 9,
-          "name": "Jugador 9",
+          "name": "Ariana Sanchez",
           "avatar": "https://i.pravatar.cc/48?img=9"
         },
         {
           "id": 10,
-          "name": "Jugador 10",
+          "name": "Alejandra Salazar",
           "avatar": "https://i.pravatar.cc/48?img=10"
         }
       ],
@@ -103,16 +103,16 @@
     {
       "id": 6,
       "rank": 6,
-      "name": "Equipo 6",
+      "name": "Rally Rascals",
       "players": [
         {
           "id": 11,
-          "name": "Jugador 11",
+          "name": "Agustín Tapia",
           "avatar": "https://i.pravatar.cc/48?img=11"
         },
         {
           "id": 12,
-          "name": "Jugador 12",
+          "name": "Federico Stupaczuk",
           "avatar": "https://i.pravatar.cc/48?img=12"
         }
       ],
@@ -123,16 +123,16 @@
     {
       "id": 7,
       "rank": 7,
-      "name": "Equipo 7",
+      "name": "Matchpoint Mavericks",
       "players": [
         {
           "id": 13,
-          "name": "Jugador 13",
+          "name": "Lionel Messi",
           "avatar": "https://i.pravatar.cc/48?img=13"
         },
         {
           "id": 14,
-          "name": "Jugador 14",
+          "name": "Diego Maradona",
           "avatar": "https://i.pravatar.cc/48?img=14"
         }
       ],
@@ -143,16 +143,16 @@
     {
       "id": 8,
       "rank": 8,
-      "name": "Equipo 8",
+      "name": "Court Commanders",
       "players": [
         {
           "id": 15,
-          "name": "Jugador 15",
+          "name": "Juan Tello",
           "avatar": "https://i.pravatar.cc/48?img=15"
         },
         {
           "id": 16,
-          "name": "Jugador 16",
+          "name": "Pablo Lima",
           "avatar": "https://i.pravatar.cc/48?img=16"
         }
       ],
@@ -163,16 +163,16 @@
     {
       "id": 9,
       "rank": 9,
-      "name": "Equipo 9",
+      "name": "Lob Legends",
       "players": [
         {
           "id": 17,
-          "name": "Jugador 17",
+          "name": "Jorge Nieto",
           "avatar": "https://i.pravatar.cc/48?img=17"
         },
         {
           "id": 18,
-          "name": "Jugador 18",
+          "name": "Verónica Virseda",
           "avatar": "https://i.pravatar.cc/48?img=18"
         }
       ],
@@ -183,16 +183,16 @@
     {
       "id": 10,
       "rank": 10,
-      "name": "Equipo 10",
+      "name": "EPadel Pioneers",
       "players": [
         {
           "id": 19,
-          "name": "Jugador 19",
+          "name": "Néstor Serrano",
           "avatar": "https://i.pravatar.cc/48?img=19"
         },
         {
           "id": 20,
-          "name": "Jugador 20",
+          "name": "Morning Star",
           "avatar": "https://i.pravatar.cc/48?img=20"
         }
       ],
