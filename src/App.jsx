@@ -16,7 +16,7 @@ function App() {
 
   const getTeams = async () => {
     try {
-      const response = await fetch($PRDURL)
+      const response = await fetch($DevURL)
 
       if (!response.ok) return setIsError(true)
 
