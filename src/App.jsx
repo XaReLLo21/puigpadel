@@ -12,7 +12,7 @@ function App() {
   const [searchTeam, setSearchTeam] = useState(null)
 
   const $PrdURL =
-    'https://my-json-server.typicode.com/InNominePatris/PBP-LEADERBOARD-APP/leagues'
+    'https://my-json-server.typicode.com/XaReLLo21/puigpadel/leagues'
 
   const getTeams = async () => {
     try {
