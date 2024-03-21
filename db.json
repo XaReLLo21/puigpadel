@@ -7,12 +7,12 @@
       "players": [
         {
           "id": 1,
-          "name": "Cristian Blanco",
+          "name": "Magnus",
           "avatar": "https://i.pravatar.cc/48?img=1"
         },
         {
           "id": 2,
-          "name": "Lisseth Palacios",
+          "name": "Javi",
           "avatar": "https://i.pravatar.cc/48?img=2"
         }
       ],
