@@ -3,7 +3,7 @@
     {
       "id": 1,
       "rank": 1,
-      "name": "UAM JAGUARS",
+      "name": "PuigTigers",
       "players": [
         {
           "id": 1,
@@ -76,9 +76,9 @@
           "avatar": "https://i.pravatar.cc/48?img=8"
         }
       ],
-      "wins": 5,
+      "wins": 8,
       "losses": 7,
-      "points": 15
+      "points": 22
     },
     {
       "id": 5,

@@ -11,7 +11,8 @@ function App() {
   const [sortedBy, setSortedBy] = useState(null)
   const [searchTeam, setSearchTeam] = useState(null)
 
-  const $PrdURL = 'https://my-json-server.typicode.com/InNominePatris/PBP-LEADERBOARD-APP/leagues';
+  const $PrdURL =
+    'https://my-json-server.typicode.com/InNominePatris/PBP-LEADERBOARD-APP/leagues'
 
   const getTeams = async () => {
     try {
@@ -36,17 +37,21 @@ function App() {
     setSearchTeam(event.target.value)
   }
 
-  const filteredTeams = searchTeam !== null && searchTeam.length > 0
-    ? teams.filter((team) => team.name.toLowerCase().includes(searchTeam.toLowerCase()))
-    : teams
+  const filteredTeams =
+    searchTeam !== null && searchTeam.length > 0
+      ? teams.filter((team) =>
+          team.name.toLowerCase().includes(searchTeam.toLowerCase())
+        )
+      : teams
 
-  const filteredTeamsSorted = sortedBy !== null && sortedBy.length > 0
-    ? filteredTeams.sort((a, b) => b[sortedBy] - a[sortedBy])
-    : filteredTeams
+  const filteredTeamsSorted =
+    sortedBy !== null && sortedBy.length > 0
+      ? filteredTeams.sort((a, b) => b[sortedBy] - a[sortedBy])
+      : filteredTeams
 
   return (
     <div>
-      <h1>PlayByPoint&apos;s Padel League</h1>
+      <h1>Pàdel Primavera de Puigdàlber 2024 </h1>
 
       <header>
         <button className='button' onClick={() => setSortedBy('wins')}>
@@ -68,7 +73,6 @@ function App() {
           className='input'
         />
       </header>
-
 
       <main>
         {teams.length > 0 && <TeamList teams={filteredTeamsSorted} />}
