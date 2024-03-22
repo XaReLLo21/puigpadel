@@ -10,6 +10,9 @@ function TeamList(props) {
           <th>Wins</th>
           <th>Losses</th>
           <th>Points</th>
+          <th>Jocs Favor</th>
+          <th>Jocs Contra</th>
+          <th>Diferencia</th>
         </tr>
       </thead>
 
@@ -28,6 +31,9 @@ function TeamList(props) {
             <td>{team.rank}</td>
             <td>{team.wins}</td>
             <td>{team.losses}</td>
+            <td>{team.points}</td>
+            <td>{team.points}</td>
+            <td>{team.points}</td>
             <td>{team.points}</td>
           </tr>
         ))}

@@ -159,46 +159,6 @@
       "wins": 1,
       "losses": 11,
       "points": 3
-    },
-    {
-      "id": 9,
-      "rank": 9,
-      "name": "Lob Legends",
-      "players": [
-        {
-          "id": 17,
-          "name": "Jorge Nieto",
-          "avatar": "https://i.pravatar.cc/48?img=17"
-        },
-        {
-          "id": 18,
-          "name": "Verónica Virseda",
-          "avatar": "https://i.pravatar.cc/48?img=18"
-        }
-      ],
-      "wins": 0,
-      "losses": 12,
-      "points": 0
-    },
-    {
-      "id": 10,
-      "rank": 10,
-      "name": "EPadel Pioneers",
-      "players": [
-        {
-          "id": 19,
-          "name": "Néstor Serrano",
-          "avatar": "https://i.pravatar.cc/48?img=19"
-        },
-        {
-          "id": 20,
-          "name": "Morning Star",
-          "avatar": "https://i.pravatar.cc/48?img=20"
-        }
-      ],
-      "wins": 0,
-      "losses": 13,
-      "points": 0
     }
   ]
 }
