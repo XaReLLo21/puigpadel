@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import TeamList from './components/TeamList'
+import Logo from '../public/logo.png'
 
 import './App.css'
 
@@ -39,9 +40,15 @@ function App() {
 
   const filteredTeams =
     searchTeam !== null && searchTeam.length > 0
-      ? teams.filter((team) =>
-          team.name.toLowerCase().includes(searchTeam.toLowerCase())
-        )
+      ? teams.filter((team) => {
+          const teamNameMatches = team.name
+            .toLowerCase()
+            .includes(searchTeam.toLowerCase())
+          const playerMatches = team.players.some((player) =>
+            player.name.toLowerCase().includes(searchTeam.toLowerCase())
+          )
+          return teamNameMatches || playerMatches
+        })
       : teams
 
   const filteredTeamsSorted =
@@ -51,25 +58,26 @@ function App() {
 
   return (
     <div>
+      <img src={Logo} alt='logo' />
       <h1>Pàdel Primavera de Puigdàlber 2024 </h1>
 
       <header>
-        <button className='button' onClick={() => setSortedBy('wins')}>
+        {/* <button className='button' onClick={() => setSortedBy('wins')}>
           Victories
         </button>
 
-        <button className='button' onClick={() => setSortedBy('losses')}>
+        <button className='button' onClick={() => setSortedBy('derrotes')}>
           Derrotes
         </button>
 
-        <button className='button' onClick={() => setSortedBy('points')}>
+        <button className='button' onClick={() => setSortedBy('punts')}>
           Punts
-        </button>
+        </button> */}
 
         <input
           type='text'
           onChange={handleSearchTeam}
-          placeholder='Search team'
+          placeholder='Buscar Equip i Jugadors'
           className='input'
         />
       </header>

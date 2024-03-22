@@ -13,15 +13,14 @@ function TeamList(props) {
   return (
     <table>
       <thead>
-        <h1>Grup 1</h1>
         <tr>
-          <th>Team</th>
-          <th>Players</th>
+          <th>Equip</th>
+          <th>Jugadors</th>
           <th>Rank</th>
           <th>Part Jugats</th>
-          <th>Wins</th>
-          <th>Losses</th>
-          <th>Points</th>
+          <th>Victòrias</th>
+          <th>Derrotes</th>
+          <th>Punts</th>
           <th>Jocs Favor</th>
           <th>Jocs Contra</th>
           <th>Diferencia</th>

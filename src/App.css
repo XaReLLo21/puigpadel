@@ -84,7 +84,9 @@ th {
   outline: none;
 }
 .top-teams {
-  background-color: #adec94; /* Set your desired background color */
+  background-color: #003375; /* Set your desired background color */
+  color: rgb(255, 255, 255);
+  font-weight: 600;
 }
 
 @media screen and (max-width: 800px) {
