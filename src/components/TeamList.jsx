@@ -1,4 +1,6 @@
 function TeamList(props) {
+  const sortedTeams = props.teams.sort((a, b) => b.wins * 3 - a.wins * 3)
+
   return (
     <table>
       <thead>
@@ -18,7 +20,7 @@ function TeamList(props) {
       </thead>
 
       <tbody>
-        {props.teams.map((team) => (
+        {sortedTeams.map((team, index) => (
           <tr key={team.id}>
             <td>{team.name}</td>
             <td className='player-list'>
@@ -29,11 +31,12 @@ function TeamList(props) {
                 </div>
               ))}
             </td>
-            <td>{team.rank}</td>
+
+            <td>{index + 1}</td>
             <td>{team.wins}</td>
             <td>{team.games}</td>
             <td>{team.losses}</td>
-            <td>{team.wins * 3} </td>
+            <td>{team.wins * 3}</td>
             <td>{team.jocsfavour}</td>
             <td>{team.jocscontra}</td>
             <td>{team.jocsfavour - team.jocscontra}</td>

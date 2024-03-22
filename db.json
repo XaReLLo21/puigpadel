@@ -2,7 +2,6 @@
   "leagues": [
     {
       "id": 1,
-      "rank": 1,
       "name": "PuigTigers",
       "players": [
         {
@@ -19,6 +18,27 @@
       "games": 5,
       "wins": 4,
       "losses": 1,
+      "jocsfavour": 48,
+      "jocscontra": 4
+    },
+    {
+      "id": 2,
+      "name": "GarbiTwats",
+      "players": [
+        {
+          "id": 1,
+          "name": "Alex",
+          "avatar": "https://i.pravatar.cc/48?img=3"
+        },
+        {
+          "id": 2,
+          "name": "Vicent",
+          "avatar": "https://i.pravatar.cc/48?img=4"
+        }
+      ],
+      "games": 5,
+      "wins": 5,
+      "losses": 0,
       "jocsfavour": 48,
       "jocscontra": 4
     }
