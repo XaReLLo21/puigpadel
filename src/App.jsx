@@ -55,15 +55,15 @@ function App() {
 
       <header>
         <button className='button' onClick={() => setSortedBy('wins')}>
-          Wins
+          Victories
         </button>
 
         <button className='button' onClick={() => setSortedBy('losses')}>
-          Losses
+          Derrotes
         </button>
 
         <button className='button' onClick={() => setSortedBy('points')}>
-          Points
+          Punts
         </button>
 
         <input
