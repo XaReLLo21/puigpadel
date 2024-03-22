@@ -1,5 +1,14 @@
 function TeamList(props) {
-  const sortedTeams = props.teams.sort((a, b) => b.wins * 3 - a.wins * 3)
+  const sortedTeams = props.teams.sort((a, b) => {
+    const pointsDiff = b.wins * 3 - a.wins * 3
+    if (pointsDiff !== 0) {
+      // If points are different, sort by points difference
+      return pointsDiff
+    } else {
+      // If points are equal, sort by "Diferencia"
+      return b.jocsfavour - b.jocscontra - (a.jocsfavour - a.jocscontra)
+    }
+  })
 
   return (
     <table>
