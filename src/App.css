@@ -83,6 +83,9 @@ th {
   border-color: #007bff;
   outline: none;
 }
+.top-teams {
+  background-color: #adec94; /* Set your desired background color */
+}
 
 @media screen and (max-width: 800px) {
   th,

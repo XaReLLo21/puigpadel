@@ -40,7 +40,70 @@
       "wins": 5,
       "losses": 0,
       "jocsfavour": 48,
-      "jocscontra": 4
+      "jocscontra": 8
+    },
+    {
+      "id": 3,
+      "name": "DaniBoys",
+      "players": [
+        {
+          "id": 1,
+          "name": "Dani",
+          "avatar": "https://i.pravatar.cc/48?img=5"
+        },
+        {
+          "id": 2,
+          "name": "Alexey",
+          "avatar": "https://i.pravatar.cc/48?img=6"
+        }
+      ],
+      "games": 3,
+      "wins": 2,
+      "losses": 1,
+      "jocsfavour": 42,
+      "jocscontra": 7
+    },
+    {
+      "id": 4,
+      "name": "VengaBoys",
+      "players": [
+        {
+          "id": 1,
+          "name": "Albert",
+          "avatar": "https://i.pravatar.cc/48?img=7"
+        },
+        {
+          "id": 2,
+          "name": "Jordi",
+          "avatar": "https://i.pravatar.cc/48?img=8"
+        }
+      ],
+      "games": 4,
+      "wins": 2,
+      "losses": 2,
+      "jocsfavour": 49,
+      "jocscontra": 7
+    },
+    {
+      "id": 5,
+      "name": "Los Angels ",
+      "players": [
+        {
+          "id": 1,
+          "name": "Angel",
+          "avatar": "https://i.pravatar.cc/48?img=9"
+        },
+        {
+          "id": 2,
+          "name": "Josep",
+          "avatar": "https://i.pravatar.cc/48?img=10"
+        }
+      ],
+      "games": 5,
+      "wins": 1,
+      "losses": 4,
+      "jocsfavour": 55,
+      "jocscontra": 29
     }
   ]
 }

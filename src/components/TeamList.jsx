@@ -21,7 +21,7 @@ function TeamList(props) {
 
       <tbody>
         {sortedTeams.map((team, index) => (
-          <tr key={team.id}>
+          <tr key={team.id} className={index < 4 ? 'top-teams' : ''}>
             <td>{team.name}</td>
             <td className='player-list'>
               {team.players.map((player) => (
@@ -31,7 +31,6 @@ function TeamList(props) {
                 </div>
               ))}
             </td>
-
             <td>{index + 1}</td>
             <td>{team.wins}</td>
             <td>{team.games}</td>
