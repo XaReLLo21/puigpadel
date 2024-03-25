@@ -104,6 +104,91 @@
       "losses": 4,
       "jocsfavour": 55,
       "jocscontra": 29
+    },
+    {
+      "id": 6,
+      "name": "Los Angels ",
+      "players": [
+        {
+          "id": 1,
+          "name": "Angel",
+          "avatar": "https://i.pravatar.cc/48?img=9"
+        },
+        {
+          "id": 2,
+          "name": "Josep",
+          "avatar": "https://i.pravatar.cc/48?img=10"
+        }
+      ],
+      "games": 5,
+      "wins": 1,
+      "losses": 4,
+      "jocsfavour": 55,
+      "jocscontra": 29
+    },
+    {
+      "id": 7,
+      "name": "Los Angels ",
+      "players": [
+        {
+          "id": 1,
+          "name": "Angel",
+          "avatar": "https://i.pravatar.cc/48?img=9"
+        },
+        {
+          "id": 2,
+          "name": "Josep",
+          "avatar": "https://i.pravatar.cc/48?img=10"
+        }
+      ],
+      "games": 5,
+      "wins": 1,
+      "losses": 4,
+      "jocsfavour": 55,
+      "jocscontra": 29
+    },
+    {
+      "id": 8,
+      "name": "Los Angels ",
+      "players": [
+        {
+          "id": 1,
+          "name": "Angel",
+          "avatar": "https://i.pravatar.cc/48?img=9"
+        },
+        {
+          "id": 2,
+          "name": "Josep",
+          "avatar": "https://i.pravatar.cc/48?img=10"
+        }
+      ],
+      "games": 5,
+      "wins": 1,
+      "losses": 4,
+      "jocsfavour": 55,
+      "jocscontra": 29
+    },
+    {
+      "id": 9,
+      "name": "Johnys änglar",
+      "group": "2",
+      "players": [
+        {
+          "id": 1,
+          "name": "Angel",
+          "avatar": "https://i.pravatar.cc/48?img=9"
+        },
+        {
+          "id": 2,
+          "name": "Josep",
+          "avatar": "https://i.pravatar.cc/48?img=10"
+        }
+      ],
+      "games": 5,
+      "wins": 1,
+      "losses": 4,
+      "jocsfavour": 55,
+      "jocscontra": 29
     }
   ]
 }

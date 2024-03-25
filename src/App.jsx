@@ -56,24 +56,16 @@ function App() {
       ? filteredTeams.sort((a, b) => b[sortedBy] - a[sortedBy])
       : filteredTeams
 
+  const filteredTeamsSorted2 = filteredTeams.filter(
+    (team) => team.group === '2'
+  )
+
   return (
     <div>
       <img src={Logo} alt='logo' />
       <h1>Pàdel Primavera de Puigdàlber 2024 </h1>
 
       <header>
-        {/* <button className='button' onClick={() => setSortedBy('wins')}>
-          Victories
-        </button>
-
-        <button className='button' onClick={() => setSortedBy('derrotes')}>
-          Derrotes
-        </button>
-
-        <button className='button' onClick={() => setSortedBy('punts')}>
-          Punts
-        </button> */}
-
         <input
           type='text'
           onChange={handleSearchTeam}
@@ -83,7 +75,16 @@ function App() {
       </header>
 
       <main>
+        <p>Grup 1</p>
         {teams.length > 0 && <TeamList teams={filteredTeamsSorted} />}
+
+        {isLoading && <strong>Loading...</strong>}
+        {isError && <strong>Fetch error. </strong>}
+        {filteredTeamsSorted == 0 && <strong>No teams found</strong>}
+      </main>
+      <main>
+        <p>Grup 2</p>
+        {teams.length > 0 && <TeamList teams={filteredTeamsSorted2} />}
 
         {isLoading && <strong>Loading...</strong>}
         {isError && <strong>Fetch error. </strong>}
