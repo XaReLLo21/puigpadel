@@ -53,8 +53,10 @@ function App() {
 
   const filteredTeamsSorted =
     sortedBy !== null && sortedBy.length > 0
-      ? filteredTeams.sort((a, b) => b[sortedBy] - a[sortedBy])
-      : filteredTeams
+      ? filteredTeams
+          .filter((team) => team.group !== '2')
+          .sort((a, b) => b[sortedBy] - a[sortedBy])
+      : filteredTeams.filter((team) => team.group !== '2')
 
   const filteredTeamsSorted2 = filteredTeams.filter(
     (team) => team.group === '2'
