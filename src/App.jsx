@@ -99,7 +99,6 @@ function App() {
               color: 'steelblue',
               width: '50px',
               height: '50px',
-              paddingTop: '20px',
             }}
           />
         </h2>
@@ -114,7 +113,6 @@ function App() {
               color: 'steelblue',
               width: '80px',
               height: '80px',
-              paddingTop: '20px',
             }}
           />
         </h2>
