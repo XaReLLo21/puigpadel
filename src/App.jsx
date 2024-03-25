@@ -1,9 +1,8 @@
 import { useState, useEffect } from 'react'
 import TeamList from './components/TeamList'
-
 import Header from './components/Header'
 import { FaSearch } from 'react-icons/fa'
-
+import Slutspel from './components/Slutspel'
 import './App.css'
 
 function App() {
@@ -75,7 +74,7 @@ function App() {
         <input
           type='text'
           onChange={handleSearchTeam}
-          placeholder='Buscar Equip i Jugadors'
+          placeholder='Cercar Equip i Jugadors'
           className='input'
         />
       </header>
@@ -95,6 +94,8 @@ function App() {
         {isLoading && <strong>Loading...</strong>}
         {isError && <strong>Fetch error. </strong>}
         {filteredTeamsSorted2 == 0 && <strong>No teams found</strong>}
+        <h2>Fase Final</h2>
+        <Slutspel />
       </main>
     </div>
   )
