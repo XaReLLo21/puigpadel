@@ -101,6 +101,9 @@ th {
   display: flex;
   flex-wrap: wrap; /* Allow flex items to wrap to the next line */
 }
+.space {
+  padding-bottom: 20px;
+}
 
 .round {
   flex: 1;

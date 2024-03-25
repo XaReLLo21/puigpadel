@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import TeamList from './components/TeamList'
 import Header from './components/Header'
 import { FaSearch } from 'react-icons/fa'
+import { CgDice1, CgDice2, CgTrophy } from 'react-icons/cg'
 import Slutspel from './components/Slutspel'
 import './App.css'
 
@@ -80,7 +81,11 @@ function App() {
       </header>
 
       <main>
-        <h2>Grup 1</h2>
+        <h2 className='space'>
+          <CgDice1
+            style={{ color: 'steelblue', width: '50px', height: '50px' }}
+          />
+        </h2>
         {teams.length > 0 && <TeamList teams={filteredTeamsSorted} />}
 
         {isLoading && <strong>Loading...</strong>}
@@ -88,13 +93,31 @@ function App() {
         {filteredTeamsSorted == 0 && <strong>No teams found</strong>}
       </main>
       <main>
-        <h2>Grup 2</h2>
+        <h2 className='space'>
+          <CgDice2
+            style={{
+              color: 'steelblue',
+              width: '50px',
+              height: '50px',
+              paddingTop: '20px',
+            }}
+          />
+        </h2>
         {teams.length > 0 && <TeamList teams={filteredTeamsSorted2} />}
 
         {isLoading && <strong>Loading...</strong>}
         {isError && <strong>Fetch error. </strong>}
         {filteredTeamsSorted2 == 0 && <strong>No teams found</strong>}
-        <h2>Fase Final</h2>
+        <h2 className='space'>
+          <CgTrophy
+            style={{
+              color: 'steelblue',
+              width: '80px',
+              height: '80px',
+              paddingTop: '20px',
+            }}
+          />
+        </h2>
         <Slutspel />
       </main>
     </div>
