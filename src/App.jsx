@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react'
 import TeamList from './components/TeamList'
-import Logo from '../public/logo.png'
+
+import Header from './components/Header'
+import { FaSearch } from 'react-icons/fa'
 
 import './App.css'
 
@@ -64,10 +66,12 @@ function App() {
 
   return (
     <div>
-      <img src={Logo} alt='logo' />
+      <Header />
+
       <h1>Pàdel Primavera de Puigdàlber 2024 </h1>
 
       <header>
+        <FaSearch style={{ color: 'lightgrey' }} />
         <input
           type='text'
           onChange={handleSearchTeam}
@@ -90,7 +94,7 @@ function App() {
 
         {isLoading && <strong>Loading...</strong>}
         {isError && <strong>Fetch error. </strong>}
-        {filteredTeamsSorted == 0 && <strong>No teams found</strong>}
+        {filteredTeamsSorted2 == 0 && <strong>No teams found</strong>}
       </main>
     </div>
   )
