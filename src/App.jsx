@@ -81,7 +81,7 @@ function App() {
       </header>
 
       <main>
-        <p>Grup 1</p>
+        <h2>Grup 1</h2>
         {teams.length > 0 && <TeamList teams={filteredTeamsSorted} />}
 
         {isLoading && <strong>Loading...</strong>}
@@ -89,7 +89,7 @@ function App() {
         {filteredTeamsSorted == 0 && <strong>No teams found</strong>}
       </main>
       <main>
-        <p>Grup 2</p>
+        <h2>Grup 2</h2>
         {teams.length > 0 && <TeamList teams={filteredTeamsSorted2} />}
 
         {isLoading && <strong>Loading...</strong>}

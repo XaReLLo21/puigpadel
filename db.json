@@ -343,50 +343,6 @@
       "losses": 4,
       "jocsfavour": 55,
       "jocscontra": 29
-    },
-    {
-      "id": 17,
-      "name": "Johnys änglar",
-      "group": "2",
-      "players": [
-        {
-          "id": 1,
-          "name": "Angel",
-          "avatar": "https://i.pravatar.cc/48?img=33"
-        },
-        {
-          "id": 2,
-          "name": "Josep",
-          "avatar": "https://i.pravatar.cc/48?img=34"
-        }
-      ],
-      "games": 5,
-      "wins": 1,
-      "losses": 4,
-      "jocsfavour": 55,
-      "jocscontra": 29
-    },
-    {
-      "id": 18,
-      "name": "Johnys änglar",
-      "group": "2",
-      "players": [
-        {
-          "id": 1,
-          "name": "Angel",
-          "avatar": "https://i.pravatar.cc/48?img=35"
-        },
-        {
-          "id": 2,
-          "name": "Josep",
-          "avatar": "https://i.pravatar.cc/48?img=36"
-        }
-      ],
-      "games": 5,
-      "wins": 1,
-      "losses": 4,
-      "jocsfavour": 55,
-      "jocscontra": 29
     }
   ]
 }

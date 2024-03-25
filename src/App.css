@@ -16,8 +16,8 @@ header {
 .header {
   display: flex;
   gap: 4px;
-  justify-content: space-between;
-  margin-left: 25px;
+  justify-content: center;
+
   align-items: center;
   flex-wrap: wrap;
   background-color: rgb(255, 255, 255);
@@ -93,7 +93,7 @@ th {
   outline: none;
 }
 .top-teams {
-  background-color: #003375; /* Set your desired background color */
+  background-color: #004675; /* Set your desired background color */
   color: rgb(255, 255, 255);
   font-weight: 600;
 }
