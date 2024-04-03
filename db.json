@@ -15,11 +15,11 @@
           "avatar": "https://i.pravatar.cc/48?img=2"
         }
       ],
-      "games": 5,
-      "wins": 5,
+      "games": 0,
+      "wins": 0,
       "losses": 0,
-      "jocsfavour": 48,
-      "jocscontra": 4
+      "jocsfavour": 0,
+      "jocscontra": 0
     },
     {
       "id": 2,
@@ -36,11 +36,11 @@
           "avatar": "https://i.pravatar.cc/48?img=4"
         }
       ],
-      "games": 5,
-      "wins": 5,
+      "games": 0,
+      "wins": 0,
       "losses": 0,
-      "jocsfavour": 48,
-      "jocscontra": 8
+      "jocsfavour": 0,
+      "jocscontra": 0
     },
     {
       "id": 3,
@@ -57,11 +57,11 @@
           "avatar": "https://i.pravatar.cc/48?img=6"
         }
       ],
-      "games": 3,
-      "wins": 2,
-      "losses": 1,
-      "jocsfavour": 42,
-      "jocscontra": 7
+      "games": 0,
+      "wins": 0,
+      "losses": 0,
+      "jocsfavour": 0,
+      "jocscontra": 0
     },
     {
       "id": 4,
@@ -78,11 +78,11 @@
           "avatar": "https://i.pravatar.cc/48?img=8"
         }
       ],
-      "games": 4,
-      "wins": 2,
-      "losses": 2,
-      "jocsfavour": 49,
-      "jocscontra": 7
+      "games": 0,
+      "wins": 0,
+      "losses": 0,
+      "jocsfavour": 0,
+      "jocscontra": 0
     },
     {
       "id": 5,
@@ -99,11 +99,11 @@
           "avatar": "https://i.pravatar.cc/48?img=10"
         }
       ],
-      "games": 5,
-      "wins": 1,
-      "losses": 4,
-      "jocsfavour": 55,
-      "jocscontra": 29
+      "games": 0,
+      "wins": 0,
+      "losses": 0,
+      "jocsfavour": 0,
+      "jocscontra": 0
     },
     {
       "id": 6,
@@ -120,11 +120,11 @@
           "avatar": "https://i.pravatar.cc/48?img=12"
         }
       ],
-      "games": 5,
-      "wins": 1,
-      "losses": 4,
-      "jocsfavour": 55,
-      "jocscontra": 29
+      "games": 0,
+      "wins": 0,
+      "losses": 0,
+      "jocsfavour": 0,
+      "jocscontra": 0
     },
     {
       "id": 7,
@@ -141,11 +141,11 @@
           "avatar": "https://i.pravatar.cc/48?img=14"
         }
       ],
-      "games": 5,
-      "wins": 1,
-      "losses": 4,
-      "jocsfavour": 55,
-      "jocscontra": 29
+      "games": 0,
+      "wins": 0,
+      "losses": 0,
+      "jocsfavour": 0,
+      "jocscontra": 0
     },
     {
       "id": 8,
@@ -162,11 +162,11 @@
           "avatar": "https://i.pravatar.cc/48?img=16"
         }
       ],
-      "games": 5,
-      "wins": 1,
-      "losses": 4,
-      "jocsfavour": 55,
-      "jocscontra": 29
+      "games": 0,
+      "wins": 0,
+      "losses": 0,
+      "jocsfavour": 0,
+      "jocscontra": 0
     },
     {
       "id": 9,
@@ -184,11 +184,11 @@
           "avatar": "https://i.pravatar.cc/48?img=18"
         }
       ],
-      "games": 5,
-      "wins": 1,
-      "losses": 4,
-      "jocsfavour": 55,
-      "jocscontra": 29
+      "games": 0,
+      "wins": 0,
+      "losses": 0,
+      "jocsfavour": 0,
+      "jocscontra": 0
     },
     {
       "id": 10,
@@ -206,11 +206,11 @@
           "avatar": "https://i.pravatar.cc/48?img=20"
         }
       ],
-      "games": 5,
-      "wins": 1,
-      "losses": 4,
-      "jocsfavour": 55,
-      "jocscontra": 29
+      "games": 0,
+      "wins": 0,
+      "losses": 0,
+      "jocsfavour": 0,
+      "jocscontra": 0
     },
     {
       "id": 11,
@@ -228,11 +228,11 @@
           "avatar": "https://i.pravatar.cc/48?img=22"
         }
       ],
-      "games": 5,
-      "wins": 1,
-      "losses": 4,
-      "jocsfavour": 55,
-      "jocscontra": 29
+      "games": 0,
+      "wins": 0,
+      "losses": 0,
+      "jocsfavour": 0,
+      "jocscontra": 0
     },
     {
       "id": 12,
@@ -250,11 +250,11 @@
           "avatar": "https://i.pravatar.cc/48?img=24"
         }
       ],
-      "games": 5,
-      "wins": 1,
-      "losses": 4,
-      "jocsfavour": 55,
-      "jocscontra": 29
+      "games": 0,
+      "wins": 0,
+      "losses": 0,
+      "jocsfavour": 0,
+      "jocscontra": 0
     },
     {
       "id": 13,
@@ -272,11 +272,11 @@
           "avatar": "https://i.pravatar.cc/48?img=26"
         }
       ],
-      "games": 5,
-      "wins": 1,
-      "losses": 4,
-      "jocsfavour": 55,
-      "jocscontra": 29
+      "games": 0,
+      "wins": 0,
+      "losses": 0,
+      "jocsfavour": 0,
+      "jocscontra": 0
     },
     {
       "id": 14,
@@ -294,11 +294,11 @@
           "avatar": "https://i.pravatar.cc/48?img=28"
         }
       ],
-      "games": 5,
-      "wins": 1,
-      "losses": 4,
-      "jocsfavour": 55,
-      "jocscontra": 29
+      "games": 0,
+      "wins": 0,
+      "losses": 0,
+      "jocsfavour": 0,
+      "jocscontra": 0
     },
     {
       "id": 15,
@@ -316,11 +316,11 @@
           "avatar": "https://i.pravatar.cc/48?img=30"
         }
       ],
-      "games": 5,
-      "wins": 1,
-      "losses": 4,
-      "jocsfavour": 55,
-      "jocscontra": 29
+      "games": 0,
+      "wins": 0,
+      "losses": 0,
+      "jocsfavour": 0,
+      "jocscontra": 0
     },
     {
       "id": 16,
@@ -338,11 +338,11 @@
           "avatar": "https://i.pravatar.cc/48?img=32"
         }
       ],
-      "games": 5,
-      "wins": 1,
-      "losses": 4,
-      "jocsfavour": 55,
-      "jocscontra": 29
+      "games": 0,
+      "wins": 0,
+      "losses": 0,
+      "jocsfavour": 0,
+      "jocscontra": 0
     }
   ]
 }

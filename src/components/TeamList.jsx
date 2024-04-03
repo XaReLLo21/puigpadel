@@ -14,11 +14,11 @@ function TeamList(props) {
     <table>
       <thead>
         <tr>
-          <th>Equip</th>
+          {/* <th>Equip</th> */}
           <th>Jugadors</th>
           <th>Rank</th>
-          <th>Part Jugats</th>
-          <th>Victòrias</th>
+          <th>Partits Jugats</th>
+          <th>Victòries</th>
           <th>Derrotes</th>
           <th>Punts</th>
           <th>Jocs Favor</th>
@@ -30,7 +30,7 @@ function TeamList(props) {
       <tbody>
         {sortedTeams.map((team, index) => (
           <tr key={team.id} className={index < 4 ? 'top-teams' : ''}>
-            <td>{team.name}</td>
+            {/* <td>{team.name}</td> */}
             <td className='player-list'>
               {team.players.map((player) => (
                 <div className='player' key={player.id}>
