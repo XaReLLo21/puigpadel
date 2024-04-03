@@ -7,12 +7,12 @@
         {
           "id": 1,
           "name": "Josep Acedo",
-          "avatar": "https://i.pravatar.cc/48?img=1"
+          "avatar": "https://api.dicebear.com/8.x/pixel-art/svg?seed=Rascal"
         },
         {
           "id": 2,
           "name": "Eugeni Puigcorbe",
-          "avatar": "https://i.pravatar.cc/48?img=2"
+          "avatar": "https://api.dicebear.com/8.x/pixel-art/svg?seed=Lola"
         }
       ],
       "games": 0,
