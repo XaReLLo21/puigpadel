@@ -6,12 +6,12 @@
       "players": [
         {
           "id": 1,
-          "name": "Josep Acedo",
+          "name": "Josep",
           "avatar": "https://api.dicebear.com/8.x/pixel-art/svg?seed=Rascal"
         },
         {
           "id": 2,
-          "name": "Eugeni Puigcorbe",
+          "name": "Eugeni",
           "avatar": "https://api.dicebear.com/8.x/pixel-art/svg?seed=Lola"
         }
       ],
