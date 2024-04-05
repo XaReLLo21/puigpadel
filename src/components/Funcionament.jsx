@@ -80,7 +80,6 @@ const Funcionament = () => {
         <div
           style={{
             display: 'flex',
-            // gridTemplateColumns: 'repeat(2, 1fr)',
             gap: '8px',
             alignItems: 'center',
             paddingTop: '8px',

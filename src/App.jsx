@@ -4,9 +4,10 @@ import Header from './components/Header'
 import { FaSearch } from 'react-icons/fa'
 import { CgDice1, CgDice2, CgTrophy } from 'react-icons/cg'
 import { FaRegQuestionCircle } from 'react-icons/fa'
-import Slutspel from './components/Slutspel'
+import Slutspelet from './components/Slutspelet'
 import './App.css'
 import Funcionament from './components/Funcionament'
+import Footer from './components/Footer'
 
 function App() {
   const [teams, setTeams] = useState([])
@@ -118,7 +119,7 @@ function App() {
             }}
           />
         </h2>
-        <Slutspel />
+        <Slutspelet />
         <FaRegQuestionCircle
           style={{
             color: 'steelblue',
@@ -129,6 +130,7 @@ function App() {
         />
         <Funcionament />
       </main>
+      <Footer />
     </div>
   )
 }

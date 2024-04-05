@@ -21,6 +21,19 @@ header {
   flex-wrap: wrap;
   background-color: rgb(255, 255, 255);
 }
+.footer {
+  background-color: #004675;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding-bottom: 20px;
+  margin-top: 40px;
+}
+.patrocinadors {
+  font-size: small;
+  padding-top: 20px;
+  font-weight: 600;
+}
 
 table {
   width: 100%;
