@@ -43,7 +43,7 @@ function TeamList(props) {
             <td>{team.wins}</td>
             <td>{team.games}</td>
             <td>{team.losses}</td>
-            <td>{team.wins * 3}</td>
+            <td>{team.wins * 2 + team.games * 1}</td>
             <td>{team.jocsfavour}</td>
             <td>{team.jocscontra}</td>
             <td>{team.jocsfavour - team.jocscontra}</td>
