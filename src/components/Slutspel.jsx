@@ -27,8 +27,8 @@ const Slutspel = () => {
           <div className='team'>Guanyador</div>
         </div>
         <div className='match'>
-          <div className='team'>Guanyado</div>
-          <div className='team'>Guanyado</div>
+          <div className='team'>Guanyador</div>
+          <div className='team'>Guanyador</div>
         </div>
       </div>
       <div className='round'>
