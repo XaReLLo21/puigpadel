@@ -84,11 +84,7 @@ function App() {
       </header>
 
       <main>
-        <h2 className='space'>
-          <CgDice1
-            style={{ color: 'steelblue', width: '50px', height: '50px' }}
-          />
-        </h2>
+        <h1 style={{ color: 'steelblue' }}>Grup A</h1>
         {teams.length > 0 && <TeamList teams={filteredTeamsSorted} />}
 
         {isLoading && <strong>Loading...</strong>}
@@ -96,15 +92,7 @@ function App() {
         {filteredTeamsSorted == 0 && <strong>No teams found</strong>}
       </main>
       <main>
-        <h2 className='space'>
-          <CgDice2
-            style={{
-              color: 'steelblue',
-              width: '50px',
-              height: '50px',
-            }}
-          />
-        </h2>
+        <h1 style={{ color: 'steelblue' }}>Grup B</h1>
         {teams.length > 0 && <TeamList teams={filteredTeamsSorted2} />}
 
         {isLoading && <strong>Loading...</strong>}
