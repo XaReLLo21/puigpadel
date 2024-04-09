@@ -117,7 +117,7 @@ function App() {
             color: 'steelblue',
             width: '70px',
             height: '70px',
-            marginTop: '55px',
+            marginTop: '25px',
           }}
         />
         <Funcionament />
