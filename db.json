@@ -57,11 +57,11 @@
           "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Salem"
         }
       ],
-      "games": 0,
+      "games": 1,
       "wins": 0,
-      "losses": 0,
-      "jocsfavour": 0,
-      "jocscontra": 0
+      "losses": 1,
+      "jocsfavour": 10,
+      "jocscontra": 13
     },
     {
       "id": 4,
@@ -141,11 +141,11 @@
           "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Coco"
         }
       ],
-      "games": 0,
-      "wins": 0,
+      "games": 1,
+      "wins": 1,
       "losses": 0,
-      "jocsfavour": 0,
-      "jocscontra": 0
+      "jocsfavour": 13,
+      "jocscontra": 10
     },
     {
       "id": 8,
