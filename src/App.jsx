@@ -110,17 +110,17 @@ function App() {
           />
         </h2>
         <Slutspelet />
+        <h1 style={{ color: 'steelblue' }}>Partits Jugats</h1>
+        <MatchTable matches={matchesDate.matches} />
         <FaRegQuestionCircle
           style={{
             color: 'steelblue',
             width: '70px',
             height: '70px',
-            marginTop: '15px',
+            marginTop: '55px',
           }}
         />
         <Funcionament />
-        <h1 style={{ color: 'steelblue' }}>Partits Jugats</h1>
-        <MatchTable matches={matchesDate.matches} />
       </main>
       <Footer />
     </div>
