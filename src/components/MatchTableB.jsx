@@ -1,6 +1,6 @@
 import React from 'react'
 
-function MatchTable({ matches }) {
+function MatchTableB({ matches }) {
   // Function to determine the winner of each set
   const getWinner = (setScore) => {
     const [score1, score2] = setScore.split('-').map(Number)
@@ -8,7 +8,7 @@ function MatchTable({ matches }) {
   }
 
   // Filter matches to only include those with grup: 'A'
-  const grupAMatches = matches.filter((match) => match.grup === 'A')
+  const grupBMatches = matches.filter((match) => match.grup === 'B')
 
   return (
     <table>
@@ -23,7 +23,7 @@ function MatchTable({ matches }) {
         </tr>
       </thead>
       <tbody>
-        {grupAMatches.map((match) => (
+        {grupBMatches.map((match) => (
           <tr key={match.id}>
             <td>{match.id}</td>
             <td>
@@ -50,4 +50,4 @@ function MatchTable({ matches }) {
   )
 }
 
-export default MatchTable
+export default MatchTableB

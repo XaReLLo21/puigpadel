@@ -2,6 +2,7 @@
   "matches": [
     {
       "id": 1,
+      "grup": "A",
       "teams": [
         { "name": "Team 1", "players": ["Javi", "Magnus"] },
         { "name": "Team 2", "players": ["Alexei", "Dani"] }

@@ -9,12 +9,14 @@ import './App.css'
 import Funcionament from './components/Funcionament'
 import Footer from './components/Footer'
 import MatchTable from './components/MatchTable'
+import MatchTableB from './components/MatchTableB'
 import matchesDate from '../matches.json'
 
 function App() {
   const [teams, setTeams] = useState([])
   const [isError, setIsError] = useState(false)
   const [isLoading, setIsLoading] = useState(true)
+  const [showMatches, setShowMatches] = useState(false)
 
   const [sortedBy, setSortedBy] = useState(null)
   const [searchTeam, setSearchTeam] = useState(null)
@@ -69,6 +71,10 @@ function App() {
     (team) => team.group === '2'
   )
 
+  const handleToggleMatches = () => {
+    setShowMatches((prevShowMatches) => !prevShowMatches) // Toggle the state
+  }
+
   return (
     <div>
       <Header />
@@ -93,6 +99,19 @@ function App() {
         {isError && <strong>Fetch error. </strong>}
         {filteredTeamsSorted == 0 && <strong>No teams found</strong>}
       </main>
+
+      <h2
+        style={{ color: 'steelblue', cursor: 'pointer' }}
+        onClick={handleToggleMatches}
+      >
+        {showMatches ? '▾ Partits Jugats Grup A' : '▸ Partits Jugats Grup A'}
+      </h2>
+
+      {showMatches && (
+        <div>
+          <MatchTable matches={matchesDate.matches} />
+        </div>
+      )}
       <main>
         <h1 style={{ color: 'steelblue' }}>Grup B</h1>
         {teams.length > 0 && <TeamList teams={filteredTeamsSorted2} />}
@@ -100,6 +119,18 @@ function App() {
         {isLoading && <strong>Loading...</strong>}
         {isError && <strong>Fetch error. </strong>}
         {filteredTeamsSorted2 == 0 && <strong>No teams found</strong>}
+        <h2
+          style={{ color: 'steelblue', cursor: 'pointer' }}
+          onClick={handleToggleMatches}
+        >
+          {showMatches ? '▾ Partits Jugats Grup B' : '▸ Partits Jugats Grup B'}
+        </h2>
+
+        {showMatches && (
+          <div>
+            <MatchTableB matches={matchesDate.matches} />
+          </div>
+        )}
         <h2 className='space'>
           <CgTrophy
             style={{
@@ -110,8 +141,6 @@ function App() {
           />
         </h2>
         <Slutspelet />
-        <h1 style={{ color: 'steelblue' }}>Partits Jugats</h1>
-        <MatchTable matches={matchesDate.matches} />
         <FaRegQuestionCircle
           style={{
             color: 'steelblue',
