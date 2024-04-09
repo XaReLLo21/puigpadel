@@ -8,6 +8,8 @@ import Slutspelet from './components/Slutspelet'
 import './App.css'
 import Funcionament from './components/Funcionament'
 import Footer from './components/Footer'
+import MatchTable from './components/MatchTable'
+import matchesDate from '../matches.json'
 
 function App() {
   const [teams, setTeams] = useState([])
@@ -117,6 +119,8 @@ function App() {
           }}
         />
         <Funcionament />
+        <h1 style={{ color: 'steelblue' }}>Partits Jugats</h1>
+        <MatchTable matches={matchesDate.matches} />
       </main>
       <Footer />
     </div>
