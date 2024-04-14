@@ -103,6 +103,19 @@
         { "set": 2, "score": "6-3" },
         { "set": 3, "score": "0-0" }
       ]
+    },
+    {
+      "id": 9,
+      "grup": "A",
+      "teams": [
+        { "name": "Team 1", "players": ["Jaume", "Boris"] },
+        { "name": "Team 2", "players": ["Maika", "Xus"] }
+      ],
+      "sets": [
+        { "set": 1, "score": "6-0" },
+        { "set": 2, "score": "6-0" },
+        { "set": 3, "score": "0-0" }
+      ]
     }
   ]
 }

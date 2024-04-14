@@ -78,10 +78,10 @@
           "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Jack"
         }
       ],
-      "games": 0,
-      "wins": 0,
+      "games": 1,
+      "wins": 1,
       "losses": 0,
-      "jocsfavour": 0,
+      "jocsfavour": 12,
       "jocscontra": 0
     },
     {
@@ -120,11 +120,11 @@
           "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Rascal"
         }
       ],
-      "games": 1,
+      "games": 2,
       "wins": 0,
-      "losses": 1,
+      "losses": 2,
       "jocsfavour": 0,
-      "jocscontra": 12
+      "jocscontra": 24
     },
     {
       "id": 7,
