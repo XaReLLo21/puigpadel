@@ -21,6 +21,8 @@ function App() {
   const [sortedBy, setSortedBy] = useState(null)
   const [searchTeam, setSearchTeam] = useState(null)
 
+  // Vi laddar in lagen fran db.json
+
   const $PrdURL =
     'https://my-json-server.typicode.com/XaReLLo21/puigpadel/leagues'
 
@@ -47,12 +49,15 @@ function App() {
     setSearchTeam(event.target.value)
   }
 
+  // Sökfunktionen pa lagnamn och spelare
+
   const filteredTeams =
     searchTeam !== null && searchTeam.length > 0
       ? teams.filter((team) => {
           const teamNameMatches = team.name
             .toLowerCase()
             .includes(searchTeam.toLowerCase())
+
           const playerMatches = team.players.some((player) =>
             player.name.toLowerCase().includes(searchTeam.toLowerCase())
           )

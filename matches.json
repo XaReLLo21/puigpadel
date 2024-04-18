@@ -142,6 +142,19 @@
         { "set": 2, "score": "7-5" },
         { "set": 3, "score": "0-0" }
       ]
+    },
+    {
+      "id": 12,
+      "grup": "B",
+      "teams": [
+        { "name": "Team 1", "players": ["Albert", "Joan"] },
+        { "name": "Team 2", "players": ["Edu", "Miki"] }
+      ],
+      "sets": [
+        { "set": 1, "score": "6-3" },
+        { "set": 2, "score": "6-2" },
+        { "set": 3, "score": "0-0" }
+      ]
     }
   ]
 }
