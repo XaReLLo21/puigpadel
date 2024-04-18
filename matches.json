@@ -181,6 +181,19 @@
         { "set": 2, "score": "0-6" },
         { "set": 3, "score": "0-0" }
       ]
+    },
+    {
+      "id": 15,
+      "grup": "A",
+      "teams": [
+        { "name": "Team 1", "players": ["Miquel", "Nil"] },
+        { "name": "Team 2", "players": ["Joel", "Joaquim"] }
+      ],
+      "sets": [
+        { "set": 1, "score": "1-6" },
+        { "set": 2, "score": "2-6" },
+        { "set": 3, "score": "0-0" }
+      ]
     }
   ]
 }
