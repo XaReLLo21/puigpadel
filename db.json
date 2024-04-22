@@ -15,10 +15,10 @@
           "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Bailey"
         }
       ],
-      "games": 2,
-      "wins": 1,
+      "games": 3,
+      "wins": 2,
       "losses": 1,
-      "jocsfavour": 22,
+      "jocsfavour": 34,
       "jocscontra": 28
     },
     {
@@ -120,11 +120,11 @@
           "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Rascal"
         }
       ],
-      "games": 2,
+      "games": 3,
       "wins": 0,
-      "losses": 2,
+      "losses": 3,
       "jocsfavour": 0,
-      "jocscontra": 24
+      "jocscontra": 36
     },
     {
       "id": 7,
