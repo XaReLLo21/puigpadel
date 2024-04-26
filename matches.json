@@ -246,6 +246,19 @@
         { "set": 2, "score": "6-1" },
         { "set": 3, "score": "0-0" }
       ]
+    },
+    {
+      "id": 20,
+      "grup": "A",
+      "teams": [
+        { "name": "Team 1", "players": ["Alexei", "Dani"] },
+        { "name": "Team 2", "players": ["Josep", "Eugeni"] }
+      ],
+      "sets": [
+        { "set": 1, "score": "3-6" },
+        { "set": 2, "score": "6-7" },
+        { "set": 3, "score": "0-0" }
+      ]
     }
   ]
 }
