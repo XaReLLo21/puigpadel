@@ -294,11 +294,11 @@
           "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Coco"
         }
       ],
-      "games": 3,
+      "games": 4,
       "wins": 3,
-      "losses": 0,
-      "jocsfavour": 39,
-      "jocscontra": 20
+      "losses": 1,
+      "jocsfavour": 50,
+      "jocscontra": 34
     },
     {
       "id": 15,
@@ -338,11 +338,11 @@
           "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Cali"
         }
       ],
-      "games": 3,
-      "wins": 3,
+      "games": 4,
+      "wins": 4,
       "losses": 0,
-      "jocsfavour": 36,
-      "jocscontra": 16
+      "jocsfavour": 50,
+      "jocscontra": 27
     }
   ]
 }
