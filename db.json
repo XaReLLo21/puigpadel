@@ -36,11 +36,11 @@
           "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Sophie"
         }
       ],
-      "games": 4,
-      "wins": 1,
+      "games": 5,
+      "wins": 2,
       "losses": 3,
-      "jocsfavour": 34,
-      "jocscontra": 50
+      "jocsfavour": 46,
+      "jocscontra": 51
     },
     {
       "id": 3,
@@ -57,11 +57,11 @@
           "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Salem"
         }
       ],
-      "games": 3,
+      "games": 4,
       "wins": 1,
-      "losses": 2,
-      "jocsfavour": 31,
-      "jocscontra": 33
+      "losses": 3,
+      "jocsfavour": 34,
+      "jocscontra": 45
     },
     {
       "id": 4,
@@ -120,11 +120,11 @@
           "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Rascal"
         }
       ],
-      "games": 3,
+      "games": 5,
       "wins": 0,
-      "losses": 3,
-      "jocsfavour": 0,
-      "jocscontra": 36
+      "losses": 5,
+      "jocsfavour": 1,
+      "jocscontra": 60
     },
     {
       "id": 7,
@@ -141,10 +141,10 @@
           "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Coco"
         }
       ],
-      "games": 4,
-      "wins": 2,
+      "games": 5,
+      "wins": 3,
       "losses": 2,
-      "jocsfavour": 48,
+      "jocsfavour": 60,
       "jocscontra": 42
     },
     {
@@ -162,11 +162,11 @@
           "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Patches"
         }
       ],
-      "games": 4,
-      "wins": 4,
+      "games": 5,
+      "wins": 5,
       "losses": 0,
-      "jocsfavour": 48,
-      "jocscontra": 19
+      "jocsfavour": 60,
+      "jocscontra": 22
     },
     {
       "id": 9,

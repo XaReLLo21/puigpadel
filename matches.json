@@ -298,6 +298,45 @@
         { "set": 2, "score": "6-3" },
         { "set": 3, "score": "0-0" }
       ]
+    },
+    {
+      "id": 24,
+      "grup": "A",
+      "teams": [
+        { "name": "Team 1", "players": ["Kevin", "Emilio"] },
+        { "name": "Team 2", "players": ["Chus", "Maika"] }
+      ],
+      "sets": [
+        { "set": 1, "score": "6-1" },
+        { "set": 2, "score": "6-0" },
+        { "set": 3, "score": "0-0" }
+      ]
+    },
+    {
+      "id": 25,
+      "grup": "A",
+      "teams": [
+        { "name": "Team 1", "players": ["Joel", "Joaquim"] },
+        { "name": "Team 2", "players": ["Alexey", "Dani"] }
+      ],
+      "sets": [
+        { "set": 1, "score": "6-1" },
+        { "set": 2, "score": "6-2" },
+        { "set": 3, "score": "0-0" }
+      ]
+    },
+    {
+      "id": 26,
+      "grup": "A",
+      "teams": [
+        { "name": "Team 1", "players": ["Magnus", "Javi"] },
+        { "name": "Team 2", "players": ["Xus", "Maika (Silvia)"] }
+      ],
+      "sets": [
+        { "set": 1, "score": "6-0" },
+        { "set": 2, "score": "6-0" },
+        { "set": 3, "score": "0-0" }
+      ]
     }
   ]
 }
