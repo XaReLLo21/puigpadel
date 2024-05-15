@@ -15,11 +15,11 @@
           "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Bailey"
         }
       ],
-      "games": 5,
+      "games": 6,
       "wins": 4,
-      "losses": 1,
-      "jocsfavour": 60,
-      "jocscontra": 44
+      "losses": 2,
+      "jocsfavour": 63,
+      "jocscontra": 56
     },
     {
       "id": 2,
@@ -78,11 +78,11 @@
           "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Jack"
         }
       ],
-      "games": 3,
-      "wins": 2,
+      "games": 4,
+      "wins": 3,
       "losses": 1,
-      "jocsfavour": 29,
-      "jocscontra": 20
+      "jocsfavour": 41,
+      "jocscontra": 23
     },
     {
       "id": 5,
@@ -184,11 +184,11 @@
           "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Lola"
         }
       ],
-      "games": 2,
+      "games": 3,
       "wins": 0,
-      "losses": 2,
-      "jocsfavour": 19,
-      "jocscontra": 27
+      "losses": 3,
+      "jocsfavour": 24,
+      "jocscontra": 39
     },
     {
       "id": 10,
@@ -206,11 +206,11 @@
           "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Bubba"
         }
       ],
-      "games": 1,
-      "wins": 1,
+      "games": 2,
+      "wins": 2,
       "losses": 0,
-      "jocsfavour": 12,
-      "jocscontra": 5
+      "jocsfavour": 24,
+      "jocscontra": 10
     },
     {
       "id": 11,
@@ -228,11 +228,11 @@
           "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Willow"
         }
       ],
-      "games": 1,
-      "wins": 1,
+      "games": 2,
+      "wins": 2,
       "losses": 0,
-      "jocsfavour": 12,
-      "jocscontra": 3
+      "jocsfavour": 24,
+      "jocscontra": 10
     },
     {
       "id": 12,
@@ -294,11 +294,11 @@
           "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Coco"
         }
       ],
-      "games": 5,
+      "games": 6,
       "wins": 4,
-      "losses": 1,
-      "jocsfavour": 62,
-      "jocscontra": 39
+      "losses": 2,
+      "jocsfavour": 69,
+      "jocscontra": 51
     },
     {
       "id": 15,
