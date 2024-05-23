@@ -15,11 +15,11 @@
           "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Bailey"
         }
       ],
-      "games": 6,
-      "wins": 4,
+      "games": 7,
+      "wins": 5,
       "losses": 2,
-      "jocsfavour": 63,
-      "jocscontra": 56
+      "jocsfavour": 75,
+      "jocscontra": 62
     },
     {
       "id": 2,
@@ -99,11 +99,11 @@
           "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Willow"
         }
       ],
-      "games": 3,
+      "games": 4,
       "wins": 1,
-      "losses": 2,
-      "jocsfavour": 29,
-      "jocscontra": 29
+      "losses": 3,
+      "jocsfavour": 35,
+      "jocscontra": 41
     },
     {
       "id": 6,
