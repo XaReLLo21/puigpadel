@@ -545,6 +545,32 @@
         { "set": 2, "score": "6-7" },
         { "set": 3, "score": "6-0" }
       ]
+    },
+    {
+      "id": 43,
+      "grup": "B",
+      "teams": [
+        { "name": "Team 1", "players": ["Alex", "Jordi"] },
+        { "name": "Team 2", "players": ["Ivan", "Marc"] }
+      ],
+      "sets": [
+        { "set": 1, "score": "6-3" },
+        { "set": 2, "score": "6-0" },
+        { "set": 3, "score": "0-0" }
+      ]
+    },
+    {
+      "id": 44,
+      "grup": "B",
+      "teams": [
+        { "name": "Team 1", "players": ["Lluis", "Felix"] },
+        { "name": "Team 2", "players": ["Miki", "Edu"] }
+      ],
+      "sets": [
+        { "set": 1, "score": "7-5" },
+        { "set": 2, "score": "6-2" },
+        { "set": 3, "score": "0-0" }
+      ]
     }
   ]
 }
