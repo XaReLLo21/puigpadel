@@ -137,6 +137,11 @@ th {
   padding: 10px 8px;
   background-color: #696868;
 }
+.team-cuatro {
+  color: #fff;
+  padding: 10px 8px;
+  background-color: #434eec;
+}
 
 .team:nth-child(odd) {
   border-bottom: 1px solid #8fc7ff;
