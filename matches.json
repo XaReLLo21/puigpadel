@@ -598,6 +598,19 @@
         { "set": 2, "score": "6-1" },
         { "set": 3, "score": "0-0" }
       ]
+    },
+    {
+      "id": 47,
+      "grup": "B",
+      "teams": [
+        { "name": "Team 1", "players": ["Miki", "Edu"] },
+        { "name": "Team 2", "players": ["Alex", "Jordi"] }
+      ],
+      "sets": [
+        { "set": 1, "score": "6-3" },
+        { "set": 2, "score": "1-6" },
+        { "set": 3, "score": "4-6" }
+      ]
     }
   ]
 }
