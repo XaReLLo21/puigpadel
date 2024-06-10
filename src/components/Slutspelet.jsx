@@ -5,19 +5,19 @@ const Slutspel = () => {
     <div className='bracket'>
       <div className='round'>
         <div className='match'>
-          <div className='team'>Grup A - 1</div>
+          <div className='team-cuatro'>Joel - Joaquim</div>
           <div className='team-cuatro'>Àngel - Pol</div>
         </div>
         <div className='match'>
-          <div className='team'>Grup B - 2</div>
-          <div className='team'>Grup A - 3</div>
+          <div className='team-cuatro'>Dani - Olga</div>
+          <div className='team-cuatro'>Jaume - Boris</div>
         </div>
         <div className='match'>
-          <div className='team'>Grup A - 2</div>
-          <div className='team'>Grup B - 3</div>
+          <div className='team-cuatro'>Josep - Eugeni</div>
+          <div className='team-cuatro'>Lluís - Fèlix</div>
         </div>
         <div className='match'>
-          <div className='team'>Grup B - 1</div>
+          <div className='team-cuatro'>Albert - Joan</div>
           <div className='team-cuatro'>Javi - Magnus</div>
         </div>
       </div>
