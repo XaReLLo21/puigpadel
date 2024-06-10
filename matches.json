@@ -646,8 +646,8 @@
         { "name": "Team 2", "players": ["Ivan", "Marc"] }
       ],
       "sets": [
-        { "set": 1, "score": "6-7" },
-        { "set": 2, "score": "0-6" },
+        { "set": 1, "score": "6-0" },
+        { "set": 2, "score": "7-5" },
         { "set": 3, "score": "0-0" }
       ]
     },
