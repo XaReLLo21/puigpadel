@@ -140,11 +140,14 @@ th {
 .team-cuatro {
   color: #fff;
   padding: 10px 8px;
-  background-color: #434eec;
+  background-color: steelblue;
 }
 
 .team:nth-child(odd) {
-  border-bottom: 1px solid #8fc7ff;
+  border-bottom: 1px solid #ffffff;
+}
+.team-cuatro:nth-child(odd) {
+  border-bottom: 1px solid #ffffff;
 }
 
 @media screen and (max-width: 800px) {

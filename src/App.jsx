@@ -97,6 +97,16 @@ function App() {
       </header>
 
       <main>
+        <h2 className='space'>
+          <CgTrophy
+            style={{
+              color: 'steelblue',
+              width: '80px',
+              height: '80px',
+            }}
+          />
+        </h2>
+        <Slutspelet />
         <h1 style={{ color: 'steelblue' }}>Grup A</h1>
         {teams.length > 0 && <TeamList teams={filteredTeamsSorted} />}
 
@@ -136,16 +146,6 @@ function App() {
             <MatchTableB matches={matchesDate.matches} />
           </div>
         )}
-        <h2 className='space'>
-          <CgTrophy
-            style={{
-              color: 'steelblue',
-              width: '80px',
-              height: '80px',
-            }}
-          />
-        </h2>
-        <Slutspelet />
         <FaRegQuestionCircle
           style={{
             color: 'steelblue',
