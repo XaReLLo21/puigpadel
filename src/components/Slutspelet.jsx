@@ -18,7 +18,7 @@ const Slutspel = () => {
         </div>
         <div className='match'>
           <div className='team-cuatro'>Albert - Joan</div>
-          <div className='team-cuatro'>Javi - Magnus</div>
+          <div className='team'>Javi - Magnus</div>
         </div>
       </div>
       <div className='round'>
@@ -28,7 +28,7 @@ const Slutspel = () => {
         </div>
         <div className='match'>
           <div className='team'>Guanyador</div>
-          <div className='team'>Guanyador</div>
+          <div className='team-cuatro'>Albert - Joan</div>
         </div>
       </div>
       <div className='round'>
