@@ -150,11 +150,34 @@ th {
   border-bottom: 1px solid #ffffff;
 }
 
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; /* Allows columns to wrap on smaller screens */
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Individual column styling */
+.column {
+  flex: 1;
+  padding: 10px;
+  max-width: 300px; /* Set a max width for each column */
+}
+
 @media screen and (max-width: 800px) {
   th,
   td {
     font-size: 14px;
     min-width: 120px;
+  }
+  .container {
+    justify-content: center;
+  }
+
+  .column {
+    max-width: 100%; /* Columns take full width on small screens */
+    margin-bottom: 20px; /* Add space between rows */
   }
 
   .player img {

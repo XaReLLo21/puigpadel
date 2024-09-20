@@ -11,6 +11,7 @@ import Footer from './components/Footer'
 import MatchTable from './components/MatchTable'
 import MatchTableB from './components/MatchTableB'
 import matchesDate from '../matches.json'
+import Ganadores from './components/Ganadores'
 
 function App() {
   const [teams, setTeams] = useState([])
@@ -84,7 +85,7 @@ function App() {
     <div>
       <Header />
 
-      <h1>Pàdel Primavera de Puigdàlber 2024 </h1>
+      <h1>Pàdel Tardor de Puigdàlber 2024 </h1>
 
       <header>
         <FaSearch style={{ color: 'lightgrey' }} />
@@ -96,7 +97,7 @@ function App() {
         />
       </header>
 
-      <main>
+      {/* <main>
         <h2 className='space'>
           <CgTrophy
             style={{
@@ -113,22 +114,22 @@ function App() {
         {isLoading && <strong>Loading...</strong>}
         {isError && <strong>Fetch error. </strong>}
         {filteredTeamsSorted == 0 && <strong>No teams found</strong>}
-      </main>
+      </main> */}
 
-      <h2
+      {/* <h2
         style={{ color: 'steelblue', cursor: 'pointer' }}
         onClick={handleToggleMatches}
       >
         {showMatches ? '▾ Partits Jugats Grup A' : '▸ Partits Jugats Grup A'}
-      </h2>
+      </h2> */}
 
-      {showMatches && (
+      {/* {showMatches && (
         <div>
           <MatchTable matches={matchesDate.matches} />
         </div>
-      )}
+      )} */}
       <main>
-        <h1 style={{ color: 'steelblue' }}>Grup B</h1>
+        {/* <h1 style={{ color: 'steelblue' }}>Grup B</h1>
         {teams.length > 0 && <TeamList teams={filteredTeamsSorted2} />}
 
         {isLoading && <strong>Loading...</strong>}
@@ -145,7 +146,8 @@ function App() {
           <div>
             <MatchTableB matches={matchesDate.matches} />
           </div>
-        )}
+        )} */}
+        <Ganadores />
         <FaRegQuestionCircle
           style={{
             color: 'steelblue',
