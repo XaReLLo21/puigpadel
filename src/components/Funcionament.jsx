@@ -15,15 +15,15 @@ const Funcionament = () => {
   const isSectionOpen = (index) => openSections.includes(index)
 
   const sectionsData = [
-    {
-      question: 'Quants equips com a màxim poden participar en el torneig?',
-      answer: '16 parelles màxim (2 grups de 8) ',
-    },
-    {
-      question: 'Com es classifiquen els equips per a la fase eliminatòria?',
-      answer:
-        'Es classifiquen els 4 primers de cada grup per la fase eliminatòria.',
-    },
+    // {
+    //   question: 'Quants equips com a màxim poden participar en el torneig?',
+    //   answer: '16 parelles màxim (2 grups de 8) ',
+    // },
+    // {
+    //   question: 'Com es classifiquen els equips per a la fase eliminatòria?',
+    //   answer:
+    //     'Es classifiquen els 4 primers de cada grup per la fase eliminatòria.',
+    // },
     {
       question:
         "Quin és el cost d'inscripció per a cada parella i com es pot pagar?",
