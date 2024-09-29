@@ -5,7 +5,7 @@
       "grup": "A",
       "teams": [
         { "name": "Team 1", "players": ["A", "A"] },
-        { "name": "Team 2", "players": ["Alexei", "Dani"] }
+        { "name": "Team 2", "players": ["Test", "Test"] }
       ],
       "sets": [
         { "set": 1, "score": "6-4" },
@@ -18,7 +18,7 @@
       "grup": "B",
       "teams": [
         { "name": "Team 1", "players": ["B", "B"] },
-        { "name": "Team 2", "players": ["Alexei", "Dani"] }
+        { "name": "Team 2", "players": ["Test", "Test"] }
       ],
       "sets": [
         { "set": 1, "score": "6-4" },
@@ -31,7 +31,7 @@
       "grup": "C",
       "teams": [
         { "name": "Team 1", "players": ["C", "C"] },
-        { "name": "Team 2", "players": ["Alexei", "Dani"] }
+        { "name": "Team 2", "players": ["Test", "Test"] }
       ],
       "sets": [
         { "set": 1, "score": "6-4" },
@@ -44,7 +44,7 @@
       "grup": "D",
       "teams": [
         { "name": "Team 1", "players": ["D", "D"] },
-        { "name": "Team 2", "players": ["Alexei", "Dani"] }
+        { "name": "Team 2", "players": ["Test", "Test"] }
       ],
       "sets": [
         { "set": 1, "score": "6-4" },
