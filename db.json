@@ -360,13 +360,11 @@
       "players": [
         {
           "id": 1,
-          "name": "Àlex",
-          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Bella"
+          "name": "Àlex"
         },
         {
           "id": 2,
-          "name": "Aina",
-          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Coco"
+          "name": "Aina"
         }
       ],
       "games": 0,
@@ -382,13 +380,11 @@
       "players": [
         {
           "id": 1,
-          "name": "Àngel",
-          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Felix"
+          "name": "Àngel"
         },
         {
           "id": 2,
-          "name": "Isma",
-          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Patches"
+          "name": "Isma"
         }
       ],
       "games": 0,
@@ -404,13 +400,11 @@
       "players": [
         {
           "id": 1,
-          "name": "Oriol",
-          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Milo"
+          "name": "Oriol"
         },
         {
           "id": 2,
-          "name": "Dani",
-          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Cali"
+          "name": "Dani"
         }
       ],
       "games": 0,
@@ -426,13 +420,11 @@
       "players": [
         {
           "id": 1,
-          "name": "Josep",
-          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Felix"
+          "name": "Josep"
         },
         {
           "id": 2,
-          "name": "Eugeni",
-          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Patches"
+          "name": "Eugeni"
         }
       ],
       "games": 0,

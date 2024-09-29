@@ -157,7 +157,7 @@ function App() {
           </div>
         )}
         <h1 style={{ color: 'steelblue' }}>Grup C</h1>
-        {teams.length > 0 && <TeamList teams={filteredTeamsSorted2} />}
+        {teams.length > 0 && <TeamList teams={filteredTeamsSorted3} />}
 
         {isLoading && <strong>Loading...</strong>}
         {isError && <strong>Fetch error. </strong>}
@@ -175,7 +175,7 @@ function App() {
           </div>
         )}
         <h1 style={{ color: 'steelblue' }}>Grup D</h1>
-        {teams.length > 0 && <TeamList teams={filteredTeamsSorted2} />}
+        {teams.length > 0 && <TeamList teams={filteredTeamsSorted4} />}
 
         {isLoading && <strong>Loading...</strong>}
         {isError && <strong>Fetch error. </strong>}
