@@ -36,7 +36,7 @@ function TeamList(props) {
             <td className='player-list'>
               {team.players.map((player) => (
                 <div className='player' key={player.id}>
-                  <img src={player.avatar} alt={player.name} />
+                  <img src={'../boll.webp'} alt={player.name} />
                   <span>{player.name}</span>
                 </div>
               ))}
