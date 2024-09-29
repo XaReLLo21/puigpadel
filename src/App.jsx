@@ -12,6 +12,8 @@ import MatchTable from './components/MatchTable'
 import MatchTableB from './components/MatchTableB'
 import matchesDate from '../matches.json'
 import Ganadores from './components/Ganadores'
+import MatchTableD from './components/MatchTableD'
+import MatchTableC from './components/MatchTableC'
 
 function App() {
   const [teams, setTeams] = useState([])
@@ -69,12 +71,19 @@ function App() {
   const filteredTeamsSorted =
     sortedBy !== null && sortedBy.length > 0
       ? filteredTeams
-          .filter((team) => team.group !== '2')
+          .filter((team) => team.group === '1')
           .sort((a, b) => b[sortedBy] - a[sortedBy])
-      : filteredTeams.filter((team) => team.group !== '2')
+      : filteredTeams.filter((team) => team.group === '1')
 
   const filteredTeamsSorted2 = filteredTeams.filter(
     (team) => team.group === '2'
+  )
+
+  const filteredTeamsSorted3 = filteredTeams.filter(
+    (team) => team.group === '3'
+  )
+  const filteredTeamsSorted4 = filteredTeams.filter(
+    (team) => team.group === '4'
   )
 
   const handleToggleMatches = () => {
@@ -97,8 +106,8 @@ function App() {
         />
       </header>
 
-      {/* <main>
-        <h2 className='space'>
+      <main>
+        {/* <h2 className='space'>
           <CgTrophy
             style={{
               color: 'steelblue',
@@ -107,29 +116,29 @@ function App() {
             }}
           />
         </h2>
-        <Slutspelet />
+        <Slutspelet /> */}
         <h1 style={{ color: 'steelblue' }}>Grup A</h1>
         {teams.length > 0 && <TeamList teams={filteredTeamsSorted} />}
 
         {isLoading && <strong>Loading...</strong>}
         {isError && <strong>Fetch error. </strong>}
         {filteredTeamsSorted == 0 && <strong>No teams found</strong>}
-      </main> */}
+      </main>
 
-      {/* <h2
+      <h2
         style={{ color: 'steelblue', cursor: 'pointer' }}
         onClick={handleToggleMatches}
       >
         {showMatches ? '▾ Partits Jugats Grup A' : '▸ Partits Jugats Grup A'}
-      </h2> */}
+      </h2>
 
-      {/* {showMatches && (
+      {showMatches && (
         <div>
           <MatchTable matches={matchesDate.matches} />
         </div>
-      )} */}
+      )}
       <main>
-        {/* <h1 style={{ color: 'steelblue' }}>Grup B</h1>
+        <h1 style={{ color: 'steelblue' }}>Grup B</h1>
         {teams.length > 0 && <TeamList teams={filteredTeamsSorted2} />}
 
         {isLoading && <strong>Loading...</strong>}
@@ -146,7 +155,43 @@ function App() {
           <div>
             <MatchTableB matches={matchesDate.matches} />
           </div>
-        )} */}
+        )}
+        <h1 style={{ color: 'steelblue' }}>Grup C</h1>
+        {teams.length > 0 && <TeamList teams={filteredTeamsSorted2} />}
+
+        {isLoading && <strong>Loading...</strong>}
+        {isError && <strong>Fetch error. </strong>}
+        {filteredTeamsSorted2 == 0 && <strong>No teams found</strong>}
+        <h2
+          style={{ color: 'steelblue', cursor: 'pointer' }}
+          onClick={handleToggleMatches}
+        >
+          {showMatches ? '▾ Partits Jugats Grup C' : '▸ Partits Jugats Grup C'}
+        </h2>
+
+        {showMatches && (
+          <div>
+            <MatchTableC matches={matchesDate.matches} />
+          </div>
+        )}
+        <h1 style={{ color: 'steelblue' }}>Grup D</h1>
+        {teams.length > 0 && <TeamList teams={filteredTeamsSorted2} />}
+
+        {isLoading && <strong>Loading...</strong>}
+        {isError && <strong>Fetch error. </strong>}
+        {filteredTeamsSorted2 == 0 && <strong>No teams found</strong>}
+        <h2
+          style={{ color: 'steelblue', cursor: 'pointer' }}
+          onClick={handleToggleMatches}
+        >
+          {showMatches ? '▾ Partits Jugats Grup D' : '▸ Partits Jugats Grup D'}
+        </h2>
+
+        {showMatches && (
+          <div>
+            <MatchTableD matches={matchesDate.matches} />
+          </div>
+        )}
         <Ganadores />
         <FaRegQuestionCircle
           style={{

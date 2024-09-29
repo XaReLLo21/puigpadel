@@ -3,170 +3,179 @@
     {
       "id": 1,
       "name": "PuigTigers",
+      "group": "1",
       "players": [
         {
           "id": 1,
-          "name": "Josep",
+          "name": "Boris",
           "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Bella"
         },
         {
           "id": 2,
-          "name": "Eugeni",
+          "name": "Rafa",
           "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Bailey"
         }
       ],
-      "games": 7,
-      "wins": 5,
-      "losses": 2,
-      "jocsfavour": 75,
-      "jocscontra": 62
+      "games": 0,
+      "wins": 0,
+      "losses": 0,
+      "jocsfavour": 0,
+      "jocscontra": 0
     },
     {
       "id": 2,
       "name": "GarbiTwats",
-      "players": [
-        {
-          "id": 1,
-          "name": "Kevin",
-          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Bubba"
-        },
-        {
-          "id": 2,
-          "name": "Emilio",
-          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Sophie"
-        }
-      ],
-      "games": 7,
-      "wins": 2,
-      "losses": 5,
-      "jocsfavour": 58,
-      "jocscontra": 76
-    },
-    {
-      "id": 3,
-      "name": "DaniBoys",
-      "players": [
-        {
-          "id": 1,
-          "name": "Alexei",
-          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Milo"
-        },
-        {
-          "id": 2,
-          "name": "Dani",
-          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Salem"
-        }
-      ],
-      "games": 6,
-      "wins": 2,
-      "losses": 4,
-      "jocsfavour": 51,
-      "jocscontra": 57
-    },
-    {
-      "id": 4,
-      "name": "VengaBoys",
-      "players": [
-        {
-          "id": 1,
-          "name": "Jaume",
-          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Sam"
-        },
-        {
-          "id": 2,
-          "name": "Boris",
-          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Jack"
-        }
-      ],
-      "games": 6,
-      "wins": 5,
-      "losses": 1,
-      "jocsfavour": 67,
-      "jocscontra": 38
-    },
-    {
-      "id": 5,
-      "name": "Los Angels ",
-      "players": [
-        {
-          "id": 1,
-          "name": "Miquel",
-          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Oliver"
-        },
-        {
-          "id": 2,
-          "name": "Nil",
-          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Willow"
-        }
-      ],
-      "games": 5,
-      "wins": 1,
-      "losses": 4,
-      "jocsfavour": 49,
-      "jocscontra": 58
-    },
-    {
-      "id": 6,
-      "name": "Los Angels ",
+      "group": "1",
       "players": [
         {
           "id": 1,
           "name": "Xus",
-          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Miss%20kitty"
+          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Bubba"
         },
         {
           "id": 2,
-          "name": "Maika",
-          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Rascal"
+          "name": "Gemma",
+          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Sophie"
         }
       ],
-      "games": 6,
+      "games": 0,
       "wins": 0,
-      "losses": 6,
-      "jocsfavour": 1,
-      "jocscontra": 72
+      "losses": 0,
+      "jocsfavour": 0,
+      "jocscontra": 0
+    },
+    {
+      "id": 3,
+      "name": "DaniBoys",
+      "group": "1",
+      "players": [
+        {
+          "id": 1,
+          "name": "Sergi",
+          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Milo"
+        },
+        {
+          "id": 2,
+          "name": "Pol",
+          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Salem"
+        }
+      ],
+      "games": 0,
+      "wins": 0,
+      "losses": 0,
+      "jocsfavour": 0,
+      "jocscontra": 0
+    },
+    {
+      "id": 4,
+      "name": "VengaBoys",
+      "group": "1",
+      "players": [
+        {
+          "id": 1,
+          "name": "Marc",
+          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Sam"
+        },
+        {
+          "id": 2,
+          "name": "David",
+          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Jack"
+        }
+      ],
+      "games": 0,
+      "wins": 0,
+      "losses": 0,
+      "jocsfavour": 0,
+      "jocscontra": 0
+    },
+    {
+      "id": 5,
+      "name": "Los Angels ",
+      "group": "1",
+      "players": [
+        {
+          "id": 1,
+          "name": "Àngel",
+          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Oliver"
+        },
+        {
+          "id": 2,
+          "name": "Jaume",
+          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Willow"
+        }
+      ],
+      "games": 0,
+      "wins": 0,
+      "losses": 0,
+      "jocsfavour": 0,
+      "jocscontra": 0
+    },
+
+    {
+      "id": 6,
+      "name": "Johnys änglar",
+      "group": "2",
+      "players": [
+        {
+          "id": 1,
+          "name": "Fèlix",
+          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Oreo"
+        },
+        {
+          "id": 2,
+          "name": "Lluís",
+          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Lola"
+        }
+      ],
+      "games": 0,
+      "wins": 0,
+      "losses": 0,
+      "jocsfavour": 0,
+      "jocscontra": 0
     },
     {
       "id": 7,
-      "name": "Los Angels ",
+      "name": "Johnys änglar",
+      "group": "2",
       "players": [
         {
           "id": 1,
-          "name": "Javi",
-          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Sheba"
+          "name": "Miquel",
+          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Sam"
         },
         {
           "id": 2,
-          "name": "Magnus",
-          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Coco"
+          "name": "Ferran",
+          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Bubba"
         }
       ],
-      "games": 7,
-      "wins": 4,
-      "losses": 3,
-      "jocsfavour": 87,
-      "jocscontra": 71
+      "games": 0,
+      "wins": 0,
+      "losses": 0,
+      "jocsfavour": 0,
+      "jocscontra": 0
     },
     {
       "id": 8,
-      "name": "Los Angels ",
+      "name": "Johnys änglar",
+      "group": "2",
       "players": [
         {
           "id": 1,
-          "name": "Joel",
-          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Felix"
+          "name": "Manuel",
+          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Bailey"
         },
         {
           "id": 2,
-          "name": "Joaquim",
-          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Patches"
+          "name": "Andrès",
+          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Willow"
         }
       ],
-      "games": 6,
-      "wins": 6,
+      "games": 0,
+      "wins": 0,
       "losses": 0,
-      "jocsfavour": 72,
-      "jocscontra": 27
+      "jocsfavour": 0,
+      "jocscontra": 0
     },
     {
       "id": 9,
@@ -175,20 +184,20 @@
       "players": [
         {
           "id": 1,
-          "name": "Aleix",
-          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Oreo"
+          "name": "Regu",
+          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Jack"
         },
         {
           "id": 2,
-          "name": "Oriol",
-          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Lola"
+          "name": "Miki",
+          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Sheba"
         }
       ],
-      "games": 5,
-      "wins": 1,
-      "losses": 4,
-      "jocsfavour": 46,
-      "jocscontra": 63
+      "games": 0,
+      "wins": 0,
+      "losses": 0,
+      "jocsfavour": 0,
+      "jocscontra": 0
     },
     {
       "id": 10,
@@ -197,117 +206,51 @@
       "players": [
         {
           "id": 1,
-          "name": "Àngel",
-          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Sam"
+          "name": "Marc",
+          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Jack"
         },
         {
           "id": 2,
-          "name": "Pol",
-          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Bubba"
+          "name": "Xavi",
+          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Sophie"
         }
       ],
-      "games": 7,
-      "wins": 4,
-      "losses": 3,
-      "jocsfavour": 85,
-      "jocscontra": 71
+      "games": 0,
+      "wins": 0,
+      "losses": 0,
+      "jocsfavour": 0,
+      "jocscontra": 0
     },
     {
       "id": 11,
       "name": "Johnys änglar",
-      "group": "2",
+      "group": "3",
       "players": [
         {
           "id": 1,
-          "name": "Fèlix",
-          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Bailey"
-        },
-        {
-          "id": 2,
-          "name": "Lluís",
-          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Willow"
-        }
-      ],
-      "games": 6,
-      "wins": 5,
-      "losses": 1,
-      "jocsfavour": 74,
-      "jocscontra": 49
-    },
-    {
-      "id": 12,
-      "name": "Johnys änglar",
-      "group": "2",
-      "players": [
-        {
-          "id": 1,
-          "name": "Ivan",
-          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Jack"
-        },
-        {
-          "id": 2,
-          "name": "Marc",
-          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Sheba"
-        }
-      ],
-      "games": 6,
-      "wins": 0,
-      "losses": 6,
-      "jocsfavour": 29,
-      "jocscontra": 73
-    },
-    {
-      "id": 13,
-      "name": "Johnys änglar",
-      "group": "2",
-      "players": [
-        {
-          "id": 1,
-          "name": "Alex",
-          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Jack"
-        },
-        {
-          "id": 2,
-          "name": "Jordi",
-          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Sophie"
-        }
-      ],
-      "games": 7,
-      "wins": 2,
-      "losses": 5,
-      "jocsfavour": 52,
-      "jocscontra": 74
-    },
-    {
-      "id": 14,
-      "name": "Johnys änglar",
-      "group": "2",
-      "players": [
-        {
-          "id": 1,
-          "name": "Dani",
+          "name": "Joan",
           "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Bella"
         },
         {
           "id": 2,
-          "name": "Olga",
+          "name": "Albert",
           "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Coco"
         }
       ],
-      "games": 7,
-      "wins": 5,
-      "losses": 2,
-      "jocsfavour": 86,
-      "jocscontra": 66
+      "games": 0,
+      "wins": 0,
+      "losses": 0,
+      "jocsfavour": 0,
+      "jocscontra": 0
     },
     {
-      "id": 15,
+      "id": 12,
       "name": "Johnys änglar",
-      "group": "2",
+      "group": "3",
       "players": [
         {
           "id": 1,
-          "name": "Edu",
+          "name": "Vicens",
           "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Felix"
         },
         {
@@ -316,33 +259,187 @@
           "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Patches"
         }
       ],
-      "games": 7,
-      "wins": 2,
-      "losses": 5,
-      "jocsfavour": 66,
-      "jocscontra": 82
+      "games": 0,
+      "wins": 0,
+      "losses": 0,
+      "jocsfavour": 0,
+      "jocscontra": 0
     },
     {
-      "id": 16,
+      "id": 13,
       "name": "Johnys änglar",
-      "group": "2",
+      "group": "3",
       "players": [
         {
           "id": 1,
-          "name": "Albert",
+          "name": "Alexey",
           "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Milo"
         },
         {
           "id": 2,
-          "name": "Joan",
+          "name": "Edgar",
           "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Cali"
         }
       ],
-      "games": 7,
-      "wins": 7,
+      "games": 0,
+      "wins": 0,
       "losses": 0,
-      "jocsfavour": 88,
-      "jocscontra": 48
+      "jocsfavour": 0,
+      "jocscontra": 0
+    },
+    {
+      "id": 14,
+      "name": "Johnys änglar",
+      "group": "3",
+      "players": [
+        {
+          "id": 1,
+          "name": "Nil",
+          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Milo"
+        },
+        {
+          "id": 2,
+          "name": "Miquel",
+          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Cali"
+        }
+      ],
+      "games": 0,
+      "wins": 0,
+      "losses": 0,
+      "jocsfavour": 0,
+      "jocscontra": 0
+    },
+    {
+      "id": 15,
+      "name": "Johnys änglar",
+      "group": "3",
+      "players": [
+        {
+          "id": 1,
+          "name": "Eloi",
+          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Milo"
+        },
+        {
+          "id": 2,
+          "name": "Joan Marc",
+          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Cali"
+        }
+      ],
+      "games": 0,
+      "wins": 0,
+      "losses": 0,
+      "jocsfavour": 0,
+      "jocscontra": 0
+    },
+    {
+      "id": 16,
+      "name": "Johnys änglar",
+      "group": "4",
+      "players": [
+        {
+          "id": 1,
+          "name": "Javi",
+          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Milo"
+        },
+        {
+          "id": 2,
+          "name": "Magnus",
+          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Cali"
+        }
+      ],
+      "games": 0,
+      "wins": 0,
+      "losses": 0,
+      "jocsfavour": 0,
+      "jocscontra": 0
+    },
+    {
+      "id": 17,
+      "name": "Johnys änglar",
+      "group": "4",
+      "players": [
+        {
+          "id": 1,
+          "name": "Àlex",
+          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Bella"
+        },
+        {
+          "id": 2,
+          "name": "Aina",
+          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Coco"
+        }
+      ],
+      "games": 0,
+      "wins": 0,
+      "losses": 0,
+      "jocsfavour": 0,
+      "jocscontra": 0
+    },
+    {
+      "id": 18,
+      "name": "Johnys änglar",
+      "group": "4",
+      "players": [
+        {
+          "id": 1,
+          "name": "Àngel",
+          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Felix"
+        },
+        {
+          "id": 2,
+          "name": "Isma",
+          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Patches"
+        }
+      ],
+      "games": 0,
+      "wins": 0,
+      "losses": 0,
+      "jocsfavour": 0,
+      "jocscontra": 0
+    },
+    {
+      "id": 19,
+      "name": "Johnys änglar",
+      "group": "4",
+      "players": [
+        {
+          "id": 1,
+          "name": "Oriol",
+          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Milo"
+        },
+        {
+          "id": 2,
+          "name": "Dani",
+          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Cali"
+        }
+      ],
+      "games": 0,
+      "wins": 0,
+      "losses": 0,
+      "jocsfavour": 0,
+      "jocscontra": 0
+    },
+    {
+      "id": 20,
+      "name": "Johnys änglar",
+      "group": "4",
+      "players": [
+        {
+          "id": 1,
+          "name": "Josep",
+          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Felix"
+        },
+        {
+          "id": 2,
+          "name": "Eugeni",
+          "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Patches"
+        }
+      ],
+      "games": 0,
+      "wins": 0,
+      "losses": 0,
+      "jocsfavour": 0,
+      "jocscontra": 0
     }
   ]
 }
