@@ -367,11 +367,11 @@
           "name": "Aina"
         }
       ],
-      "games": 0,
+      "games": 1,
       "wins": 0,
-      "losses": 0,
+      "losses": 1,
       "jocsfavour": 0,
-      "jocscontra": 0
+      "jocscontra": 12
     },
     {
       "id": 18,
@@ -387,10 +387,10 @@
           "name": "Isma"
         }
       ],
-      "games": 0,
-      "wins": 0,
+      "games": 1,
+      "wins": 1,
       "losses": 0,
-      "jocsfavour": 0,
+      "jocsfavour": 12,
       "jocscontra": 0
     },
     {

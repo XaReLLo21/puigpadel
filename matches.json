@@ -43,12 +43,12 @@
       "id": 4,
       "grup": "D",
       "teams": [
-        { "name": "Team 1", "players": ["D", "D"] },
-        { "name": "Team 2", "players": ["Test", "Test"] }
+        { "name": "Team 1", "players": ["Àngel", "Isma"] },
+        { "name": "Team 2", "players": ["Aina", "Alex"] }
       ],
       "sets": [
-        { "set": 1, "score": "6-4" },
-        { "set": 2, "score": "7-6" },
+        { "set": 1, "score": "6-0" },
+        { "set": 2, "score": "6-0" },
         { "set": 3, "score": "0-0" }
       ]
     }
