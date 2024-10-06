@@ -17,12 +17,12 @@
       "id": 2,
       "grup": "B",
       "teams": [
-        { "name": "Team 1", "players": ["B", "B"] },
-        { "name": "Team 2", "players": ["Test", "Test"] }
+        { "name": "Team 1", "players": ["Xavi", "Marc"] },
+        { "name": "Team 2", "players": ["Jordi", "Miki"] }
       ],
       "sets": [
-        { "set": 1, "score": "6-4" },
-        { "set": 2, "score": "7-6" },
+        { "set": 1, "score": "6-2" },
+        { "set": 2, "score": "6-2" },
         { "set": 3, "score": "0-0" }
       ]
     },
