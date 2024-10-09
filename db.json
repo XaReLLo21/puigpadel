@@ -387,11 +387,11 @@
           "name": "Isma"
         }
       ],
-      "games": 1,
-      "wins": 1,
+      "games": 2,
+      "wins": 2,
       "losses": 0,
-      "jocsfavour": 12,
-      "jocscontra": 0
+      "jocsfavour": 24,
+      "jocscontra": 5
     },
     {
       "id": 19,
@@ -427,11 +427,11 @@
           "name": "Eugeni"
         }
       ],
-      "games": 0,
+      "games": 1,
       "wins": 0,
-      "losses": 0,
-      "jocsfavour": 0,
-      "jocscontra": 0
+      "losses": 1,
+      "jocsfavour": 5,
+      "jocscontra": 12
     }
   ]
 }
