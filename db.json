@@ -60,11 +60,11 @@
           "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Salem"
         }
       ],
-      "games": 0,
+      "games": 1,
       "wins": 0,
-      "losses": 0,
-      "jocsfavour": 0,
-      "jocscontra": 0
+      "losses": 1,
+      "jocsfavour": 14,
+      "jocscontra": 14
     },
     {
       "id": 4,
@@ -104,11 +104,11 @@
           "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Willow"
         }
       ],
-      "games": 0,
-      "wins": 0,
+      "games": 1,
+      "wins": 1,
       "losses": 0,
-      "jocsfavour": 0,
-      "jocscontra": 0
+      "jocsfavour": 14,
+      "jocscontra": 14
     },
 
     {
@@ -347,11 +347,11 @@
           "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Cali"
         }
       ],
-      "games": 0,
-      "wins": 0,
+      "games": 1,
+      "wins": 1,
       "losses": 0,
-      "jocsfavour": 0,
-      "jocscontra": 0
+      "jocsfavour": 12,
+      "jocscontra": 2
     },
     {
       "id": 17,
@@ -367,11 +367,11 @@
           "name": "Aina"
         }
       ],
-      "games": 1,
+      "games": 2,
       "wins": 0,
-      "losses": 1,
-      "jocsfavour": 0,
-      "jocscontra": 12
+      "losses": 2,
+      "jocsfavour": 2,
+      "jocscontra": 24
     },
     {
       "id": 18,
@@ -407,11 +407,11 @@
           "name": "Dani"
         }
       ],
-      "games": 0,
+      "games": 1,
       "wins": 0,
-      "losses": 0,
-      "jocsfavour": 0,
-      "jocscontra": 0
+      "losses": 1,
+      "jocsfavour": 10,
+      "jocscontra": 14
     },
     {
       "id": 20,
@@ -427,11 +427,11 @@
           "name": "Eugeni"
         }
       ],
-      "games": 1,
-      "wins": 0,
+      "games": 2,
+      "wins": 1,
       "losses": 1,
-      "jocsfavour": 5,
-      "jocscontra": 12
+      "jocsfavour": 19,
+      "jocscontra": 22
     }
   ]
 }

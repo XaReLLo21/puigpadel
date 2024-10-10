@@ -64,6 +64,45 @@
         { "set": 2, "score": "6-2" },
         { "set": 3, "score": "0-0" }
       ]
+    },
+    {
+      "id": 6,
+      "grup": "D",
+      "teams": [
+        { "name": "Team 1", "players": ["Javi", "Magnus"] },
+        { "name": "Team 2", "players": ["Aina", "Alex"] }
+      ],
+      "sets": [
+        { "set": 1, "score": "6-1" },
+        { "set": 2, "score": "6-1" },
+        { "set": 3, "score": "0-0" }
+      ]
+    },
+    {
+      "id": 7,
+      "grup": "A",
+      "teams": [
+        { "name": "Team 1", "players": ["Àngel", "Jaume"] },
+        { "name": "Team 2", "players": ["Pol", "Sergi"] }
+      ],
+      "sets": [
+        { "set": 1, "score": "6-2" },
+        { "set": 2, "score": "4-6" },
+        { "set": 3, "score": "4-6" }
+      ]
+    },
+    {
+      "id": 8,
+      "grup": "D",
+      "teams": [
+        { "name": "Team 1", "players": ["Dani", "Oriol"] },
+        { "name": "Team 2", "players": ["Josep", "Eugeni"] }
+      ],
+      "sets": [
+        { "set": 1, "score": "5-7" },
+        { "set": 2, "score": "5-7" },
+        { "set": 3, "score": "0-0" }
+      ]
     }
   ]
 }
