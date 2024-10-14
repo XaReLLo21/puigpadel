@@ -23,7 +23,7 @@ function App() {
 
   const [sortedBy, setSortedBy] = useState(null)
   const [searchTeam, setSearchTeam] = useState(null)
-  const buildTime = import.meta.env.VITE_BUILD_TIME || 'unknown' // Access Vite's env variable
+  const buildTime = __BUILD_TIME__ // Access the build time from Vite's define
 
   // Vi laddar in lagen fran db.json
 
