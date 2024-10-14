@@ -23,6 +23,7 @@ function App() {
 
   const [sortedBy, setSortedBy] = useState(null)
   const [searchTeam, setSearchTeam] = useState(null)
+  const buildTime = import.meta.env.VITE_BUILD_TIME || 'unknown' // Access Vite's env variable
 
   // Vi laddar in lagen fran db.json
 
@@ -95,6 +96,7 @@ function App() {
       <Header />
 
       <h1>Pàdel Tardor de Puigdàlber 2024 </h1>
+      <p>Updated: {buildTime}</p>
 
       <header>
         <FaSearch style={{ color: 'lightgrey' }} />
