@@ -96,7 +96,7 @@ function App() {
       <Header />
 
       <h1>Pàdel Tardor de Puigdàlber 2024 </h1>
-      <p>Updated: {buildTime}</p>
+      <p>Resultats Actualitzats {buildTime}</p>
 
       <header>
         <FaSearch style={{ color: 'lightgrey' }} />
