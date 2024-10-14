@@ -347,11 +347,11 @@
           "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Cali"
         }
       ],
-      "games": 1,
+      "games": 2,
       "wins": 1,
-      "losses": 0,
-      "jocsfavour": 12,
-      "jocscontra": 2
+      "losses": 1,
+      "jocsfavour": 24,
+      "jocscontra": 18
     },
     {
       "id": 17,
@@ -387,11 +387,11 @@
           "name": "Isma"
         }
       ],
-      "games": 2,
-      "wins": 2,
+      "games": 3,
+      "wins": 3,
       "losses": 0,
-      "jocsfavour": 24,
-      "jocscontra": 5
+      "jocsfavour": 40,
+      "jocscontra": 17
     },
     {
       "id": 19,
