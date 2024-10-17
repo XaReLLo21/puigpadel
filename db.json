@@ -82,11 +82,11 @@
           "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Jack"
         }
       ],
-      "games": 1,
-      "wins": 1,
+      "games": 2,
+      "wins": 2,
       "losses": 0,
-      "jocsfavour": 12,
-      "jocscontra": 0
+      "jocsfavour": 24,
+      "jocscontra": 1
     },
     {
       "id": 5,
@@ -104,11 +104,11 @@
           "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Willow"
         }
       ],
-      "games": 1,
+      "games": 2,
       "wins": 1,
-      "losses": 0,
-      "jocsfavour": 14,
-      "jocscontra": 14
+      "losses": 1,
+      "jocsfavour": 15,
+      "jocscontra": 26
     },
 
     {
@@ -281,11 +281,11 @@
           "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Cali"
         }
       ],
-      "games": 0,
+      "games": 1,
       "wins": 0,
-      "losses": 0,
-      "jocsfavour": 0,
-      "jocscontra": 0
+      "losses": 1,
+      "jocsfavour": 12,
+      "jocscontra": 14
     },
     {
       "id": 14,
@@ -325,11 +325,11 @@
           "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Cali"
         }
       ],
-      "games": 0,
-      "wins": 0,
+      "games": 1,
+      "wins": 1,
       "losses": 0,
-      "jocsfavour": 0,
-      "jocscontra": 0
+      "jocsfavour": 14,
+      "jocscontra": 12
     },
     {
       "id": 16,
@@ -347,11 +347,11 @@
           "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Cali"
         }
       ],
-      "games": 2,
-      "wins": 1,
+      "games": 3,
+      "wins": 2,
       "losses": 1,
-      "jocsfavour": 24,
-      "jocscontra": 18
+      "jocsfavour": 36,
+      "jocscontra": 22
     },
     {
       "id": 17,
@@ -407,11 +407,11 @@
           "name": "Dani"
         }
       ],
-      "games": 1,
+      "games": 2,
       "wins": 0,
-      "losses": 1,
-      "jocsfavour": 10,
-      "jocscontra": 14
+      "losses": 2,
+      "jocsfavour": 14,
+      "jocscontra": 26
     },
     {
       "id": 20,
