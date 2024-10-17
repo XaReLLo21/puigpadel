@@ -30,12 +30,12 @@
       "id": 3,
       "grup": "C",
       "teams": [
-        { "name": "Team 1", "players": ["C", "C"] },
-        { "name": "Team 2", "players": ["Test", "Test"] }
+        { "name": "Team 1", "players": ["Joan", "Albert"] },
+        { "name": "Team 2", "players": ["Miki", "Nil"] }
       ],
       "sets": [
-        { "set": 1, "score": "6-4" },
-        { "set": 2, "score": "7-6" },
+        { "set": 1, "score": "6-3" },
+        { "set": 2, "score": "6-1" },
         { "set": 3, "score": "0-0" }
       ]
     },
