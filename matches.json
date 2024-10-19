@@ -168,6 +168,32 @@
         { "set": 2, "score": "6-3" },
         { "set": 3, "score": "0-0" }
       ]
+    },
+    {
+      "id": 14,
+      "grup": "B",
+      "teams": [
+        { "name": "Team 1", "players": ["Marc", "Xavi"] },
+        { "name": "Team 2", "players": ["Manuel", "Andres"] }
+      ],
+      "sets": [
+        { "set": 1, "score": "6-0" },
+        { "set": 2, "score": "6-0" },
+        { "set": 3, "score": "0-0" }
+      ]
+    },
+    {
+      "id": 15,
+      "grup": "C",
+      "teams": [
+        { "name": "Team 1", "players": ["Joan", "Albert"] },
+        { "name": "Team 2", "players": ["Edgar", "Alexey"] }
+      ],
+      "sets": [
+        { "set": 1, "score": "6-1" },
+        { "set": 2, "score": "6-0" },
+        { "set": 3, "score": "0-0" }
+      ]
     }
   ]
 }
