@@ -61,8 +61,8 @@
         }
       ],
       "games": 1,
-      "wins": 0,
-      "losses": 1,
+      "wins": 1,
+      "losses": 0,
       "jocsfavour": 14,
       "jocscontra": 14
     },
@@ -105,8 +105,8 @@
         }
       ],
       "games": 2,
-      "wins": 1,
-      "losses": 1,
+      "wins": 0,
+      "losses": 2,
       "jocsfavour": 15,
       "jocscontra": 26
     },
