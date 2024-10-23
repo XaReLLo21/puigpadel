@@ -347,11 +347,11 @@
           "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Cali"
         }
       ],
-      "games": 3,
-      "wins": 2,
+      "games": 4,
+      "wins": 3,
       "losses": 1,
-      "jocsfavour": 36,
-      "jocscontra": 22
+      "jocsfavour": 50,
+      "jocscontra": 34
     },
     {
       "id": 17,
@@ -427,11 +427,11 @@
           "name": "Eugeni"
         }
       ],
-      "games": 2,
+      "games": 3,
       "wins": 1,
-      "losses": 1,
-      "jocsfavour": 19,
-      "jocscontra": 22
+      "losses": 2,
+      "jocsfavour": 31,
+      "jocscontra": 36
     }
   ]
 }
