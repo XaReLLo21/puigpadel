@@ -60,11 +60,11 @@
           "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Salem"
         }
       ],
-      "games": 1,
+      "games": 2,
       "wins": 1,
-      "losses": 0,
-      "jocsfavour": 14,
-      "jocscontra": 14
+      "losses": 1,
+      "jocsfavour": 22,
+      "jocscontra": 26
     },
     {
       "id": 4,
@@ -82,11 +82,11 @@
           "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Jack"
         }
       ],
-      "games": 2,
-      "wins": 2,
+      "games": 3,
+      "wins": 3,
       "losses": 0,
-      "jocsfavour": 24,
-      "jocscontra": 1
+      "jocsfavour": 36,
+      "jocscontra": 9
     },
     {
       "id": 5,
