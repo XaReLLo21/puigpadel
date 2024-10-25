@@ -367,11 +367,11 @@
           "name": "Aina"
         }
       ],
-      "games": 3,
+      "games": 4,
       "wins": 0,
-      "losses": 3,
-      "jocsfavour": 4,
-      "jocscontra": 36
+      "losses": 4,
+      "jocsfavour": 6,
+      "jocscontra": 48
     },
     {
       "id": 18,
@@ -427,11 +427,11 @@
           "name": "Eugeni"
         }
       ],
-      "games": 3,
-      "wins": 1,
+      "games": 4,
+      "wins": 2,
       "losses": 2,
-      "jocsfavour": 31,
-      "jocscontra": 36
+      "jocsfavour": 43,
+      "jocscontra": 38
     }
   ]
 }
