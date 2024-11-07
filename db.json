@@ -387,11 +387,11 @@
           "name": "Isma"
         }
       ],
-      "games": 3,
-      "wins": 3,
+      "games": 4,
+      "wins": 4,
       "losses": 0,
-      "jocsfavour": 40,
-      "jocscontra": 17
+      "jocsfavour": 55,
+      "jocscontra": 26
     },
     {
       "id": 19,
@@ -407,11 +407,11 @@
           "name": "Dani"
         }
       ],
-      "games": 3,
+      "games": 4,
       "wins": 1,
-      "losses": 2,
-      "jocsfavour": 26,
-      "jocscontra": 28
+      "losses": 3,
+      "jocsfavour": 35,
+      "jocscontra": 43
     },
     {
       "id": 20,
