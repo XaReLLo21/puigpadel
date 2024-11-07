@@ -5,7 +5,12 @@ const Slutspel = () => {
   const groupA = ['Marc | David', 'Equip A2', 'Equip A3', 'Equip A4']
   const groupB = ['Equip B1', 'Equip B2', 'Equip B3', 'Equip B4']
   const groupC = ['Equip C1', 'Equip C2', 'Equip C3', 'Equip C4']
-  const groupD = ['Equip D1', 'Equip D2', 'Equip D3', 'Equip D4']
+  const groupD = [
+    'Àngel | Isma',
+    'Javi | Magnus',
+    'Josep | Eugeni',
+    'Oriol | Dani',
+  ]
 
   // Updated pairings to avoid top group teams meeting before semifinals
   const matchups = [
