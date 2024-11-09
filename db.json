@@ -38,11 +38,11 @@
           "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Sophie"
         }
       ],
-      "games": 3,
+      "games": 4,
       "wins": 0,
-      "losses": 3,
-      "jocsfavour": 0,
-      "jocscontra": 36
+      "losses": 4,
+      "jocsfavour": 1,
+      "jocscontra": 48
     },
     {
       "id": 3,
@@ -104,11 +104,11 @@
           "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Willow"
         }
       ],
-      "games": 2,
-      "wins": 0,
+      "games": 3,
+      "wins": 1,
       "losses": 2,
-      "jocsfavour": 15,
-      "jocscontra": 26
+      "jocsfavour": 27,
+      "jocscontra": 27
     },
 
     {
