@@ -350,6 +350,19 @@
         { "set": 2, "score": "1-6" },
         { "set": 3, "score": "0-0" }
       ]
+    },
+    {
+      "id": 28,
+      "grup": "C",
+      "teams": [
+        { "name": "Team 1", "players": ["Eloi", "Joan Marc"] },
+        { "name": "Team 2", "players": ["Vicens", "Miki"] }
+      ],
+      "sets": [
+        { "set": 1, "score": "6-4" },
+        { "set": 2, "score": "3-6" },
+        { "set": 3, "score": "6-4" }
+      ]
     }
   ]
 }

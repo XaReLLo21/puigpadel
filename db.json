@@ -259,11 +259,11 @@
           "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Patches"
         }
       ],
-      "games": 1,
+      "games": 2,
       "wins": 1,
-      "losses": 0,
-      "jocsfavour": 16,
-      "jocscontra": 10
+      "losses": 1,
+      "jocsfavour": 30,
+      "jocscontra": 25
     },
     {
       "id": 13,
@@ -325,11 +325,11 @@
           "avatar": "https://api.dicebear.com/8.x/bottts-neutral/svg?seed=Cali"
         }
       ],
-      "games": 2,
-      "wins": 1,
+      "games": 3,
+      "wins": 2,
       "losses": 1,
-      "jocsfavour": 23,
-      "jocscontra": 25
+      "jocsfavour": 38,
+      "jocscontra": 40
     },
     {
       "id": 16,
