@@ -143,6 +143,12 @@ th {
   background-color: steelblue;
 }
 
+.team-ocho {
+  color: #fff;
+  padding: 10px 8px;
+  background-color: #515050;
+}
+
 .team:nth-child(odd) {
   border-bottom: 1px solid #ffffff;
 }
