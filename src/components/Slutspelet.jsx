@@ -3,7 +3,12 @@ import React from 'react'
 const Slutspel = () => {
   // Mock group data
   const groupA = ['Marc | David', 'Equip A2', 'Equip A3', 'Àngel | Jaume']
-  const groupB = ['Marc | Xavi', 'Regu | Miki', 'Manuel | Andrés', 'Equip B4']
+  const groupB = [
+    'Marc | Xavi',
+    'Regu | Miki',
+    'Manuel | Andrés',
+    'Equip B4 DSQ',
+  ]
   const groupC = [
     'Joan | Albert',
     'Eloi | Joan Marc',
@@ -48,7 +53,7 @@ const Slutspel = () => {
           <div className='team'>Guanyador Partit 2</div>
         </div>
         <div className='match'>
-          <div className='team'>Guanyador Partit 3</div>
+          <div className='team-cuatro'>Joan | Albert</div>
           <div className='team'>Guanyador Partit 4</div>
         </div>
         <div className='match'>
