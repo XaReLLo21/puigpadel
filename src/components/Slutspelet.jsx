@@ -2,7 +2,12 @@ import React from 'react'
 
 const Slutspel = () => {
   // Mock group data
-  const groupA = ['Marc | David', 'Equip A2', 'Equip A3', 'Àngel | Jaume']
+  const groupA = [
+    'Marc | David',
+    'Sergi | Pol',
+    'Boris | Rafa',
+    'Àngel | Jaume',
+  ]
   const groupB = [
     'Marc | Xavi',
     'Regu | Miki',
