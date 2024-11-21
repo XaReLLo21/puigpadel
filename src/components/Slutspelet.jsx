@@ -5,8 +5,8 @@ const Slutspel = () => {
   const groupA = [
     'Marc | David',
     'Sergi | Pol',
-    'Boris | Rafa',
-    'Àngel | Jaume',
+    'Boris | Rafa 4 7 1',
+    'Àngel | Jaume 6 0 4',
   ]
   const groupB = [
     'Marc | Xavi 6 6 ',
@@ -21,8 +21,8 @@ const Slutspel = () => {
     'Nil | Miquel 2 1 ',
   ]
   const groupD = [
-    'Àngel | Isma',
-    'Javi | Magnus',
+    'Àngel | Isma 4 6 6',
+    'Javi | Magnus 6 6 6',
     'Josep | Eugeni',
     'Oriol | Dani',
   ]
@@ -59,14 +59,14 @@ const Slutspel = () => {
         </div>
         <div className='match'>
           <div className='team-cuatro'>Joan | Albert</div>
-          <div className='team'>Guanyador Partit 4</div>
+          <div className='team-cuatro'>Javi | Magnus</div>
         </div>
         <div className='match'>
           <div className='team-cuatro'>Xavi | Marc</div>
           <div className='team'>Guanyador Partit 6</div>
         </div>
         <div className='match'>
-          <div className='team'>Guanyador Partit 7</div>
+          <div className='team-cuatro'>Àngel | Isma</div>
           <div className='team-cuatro'>Eloi | Joan Marc</div>
         </div>
       </div>
