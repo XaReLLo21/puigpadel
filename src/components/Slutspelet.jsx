@@ -17,7 +17,7 @@ const Slutspel = () => {
   const groupC = [
     'Joan | Albert',
     'Eloi | Joan Marc 6 6 6 ',
-    'Vicens | Miki',
+    'Vicens | Miki W.O.',
     'Nil | Miquel 2 1 ',
   ]
   const groupD = [
@@ -55,7 +55,7 @@ const Slutspel = () => {
       <div className='round'>
         <div className='match'>
           <div className='team'>Guanyador Partit 1</div>
-          <div className='team'>Guanyador Partit 2</div>
+          <div className='team-cuatro'>Vicens | Miki</div>
         </div>
         <div className='match'>
           <div className='team-cuatro'>Joan | Albert</div>
