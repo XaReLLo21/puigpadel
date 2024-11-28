@@ -3,8 +3,8 @@ import React from 'react'
 const Slutspel = () => {
   // Mock group data
   const groupA = [
-    'Marc | David',
-    'Sergi | Pol',
+    'Marc | David 6 6',
+    'Sergi | Pol 6 3',
     'Boris | Rafa 4 7 1',
     'Àngel | Jaume 6 0 4',
   ]
@@ -23,8 +23,8 @@ const Slutspel = () => {
   const groupD = [
     'Àngel | Isma 4 6 6',
     'Javi | Magnus 6 6 6',
-    'Josep | Eugeni',
-    'Oriol | Dani',
+    'Josep | Eugeni 7 6',
+    'Oriol | Dani 4 0',
   ]
 
   // Updated pairings to avoid top group teams meeting before semifinals
@@ -54,7 +54,7 @@ const Slutspel = () => {
       {/* 1/4 Finals */}
       <div className='round'>
         <div className='match'>
-          <div className='team'>Guanyador Partit 1</div>
+          <div className='team-cuatro'>Marc | David</div>
           <div className='team-cuatro'>Vicens | Miki</div>
         </div>
         <div className='match'>
@@ -63,7 +63,7 @@ const Slutspel = () => {
         </div>
         <div className='match'>
           <div className='team-cuatro'>Xavi | Marc</div>
-          <div className='team'>Guanyador Partit 6</div>
+          <div className='team-cuatro'>Josep | Eugeni</div>
         </div>
         <div className='match'>
           <div className='team-cuatro'>Àngel | Isma</div>
