@@ -54,8 +54,8 @@ const Slutspel = () => {
       {/* 1/4 Finals */}
       <div className='round'>
         <div className='match'>
-          <div className='team-cuatro'>Marc | David</div>
-          <div className='team-cuatro'>Vicens | Miki</div>
+          <div className='team'>Marc | David 6 6</div>
+          <div className='team'>Vicens | Miki 1 4</div>
         </div>
         <div className='match'>
           <div className='team-cuatro'>Joan | Albert</div>
@@ -74,7 +74,7 @@ const Slutspel = () => {
       {/* Semifinals */}
       <div className='round'>
         <div className='match'>
-          <div className='team'>Guanyador QF 1</div>
+          <div className='team-cuatro'>Marc | David</div>
           <div className='team'>Guanyador QF 2</div>
         </div>
         <div className='match'>
