@@ -62,8 +62,8 @@ const Slutspel = () => {
           <div className='team'>Javi | Magnus 7 3 1</div>
         </div>
         <div className='match'>
-          <div className='team-cuatro'>Xavi | Marc</div>
-          <div className='team-cuatro'>Josep | Eugeni</div>
+          <div className='team'>Xavi | Marc 6 6</div>
+          <div className='team'>Josep | Eugeni 1 0</div>
         </div>
         <div className='match'>
           <div className='team'>Àngel | Isma 6 6 6</div>
@@ -78,7 +78,7 @@ const Slutspel = () => {
           <div className='team-cuatro'>Joan | Albert</div>
         </div>
         <div className='match'>
-          <div className='team'>Guanyador QF 3</div>
+          <div className='team-cuatro'>Xavi | Marc</div>
           <div className='team-cuatro'>Àngel | Isma </div>
         </div>
       </div>
