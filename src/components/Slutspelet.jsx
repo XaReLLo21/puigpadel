@@ -78,16 +78,16 @@ const Slutspel = () => {
           <div className='team'>Joan | Albert 7 3 3</div>
         </div>
         <div className='match'>
-          <div className='team-cuatro'>Xavi | Marc</div>
-          <div className='team-cuatro'>Àngel | Isma </div>
+          <div className='team'>Xavi | Marc 6 2 6 </div>
+          <div className='team'>Àngel | Isma 4 6 0 </div>
         </div>
       </div>
 
       {/* Final */}
       <div className='round'>
         <div className='match'>
-          <div className='team-cuatro'>Marc | David</div>
-          <div className='team'>Guanyador SF 2</div>
+          19/01/2025 11:00 <div className='team-cuatro'>Marc | David</div>
+          <div className='team-cuatro'>Xavi | Marc</div>
         </div>
       </div>
     </div>
