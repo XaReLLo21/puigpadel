@@ -93,6 +93,10 @@ function App() {
 
   return (
     <div>
+      <div className='aviso'>
+        <p className='name'>Marc & David | Xavi & Marc</p>
+        <p>Final Diumenge 19 de gener a las 11:00 en Puigdàlber</p>
+      </div>
       <Header />
 
       <h1>Pàdel Tardor de Puigdàlber 2024 </h1>

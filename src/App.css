@@ -4,6 +4,19 @@
   text-align: center;
   width: 100%;
 }
+.aviso {
+  background-color: #004675;
+  padding: 40px;
+  color: #fff;
+  font-size: medium;
+  font-weight: 600;
+}
+.name {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: -15px;
+}
 
 header {
   display: flex;
