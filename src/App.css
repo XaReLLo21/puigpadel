@@ -6,9 +6,10 @@
 }
 .aviso {
   background-color: #004675;
-  padding: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   color: #fff;
-  font-size: 1 rem;
+  font-size: 1rem;
   font-weight: 600;
 }
 .name {
