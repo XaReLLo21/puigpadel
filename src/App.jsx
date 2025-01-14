@@ -95,7 +95,7 @@ function App() {
     <div>
       <div className='aviso'>
         <p className='name'>Marc & David | Xavi & Marc</p>
-        <p>Final Diumenge 19 de gener a las 11:00 en Puigdàlber</p>
+        <p>Final Diumenge 19 de gener a las 11:00 </p>
       </div>
       <Header />
 
