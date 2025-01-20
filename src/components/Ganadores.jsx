@@ -15,7 +15,7 @@ const Ganadores = () => {
       </div>
       <div className='column'>
         <h3 className='team-cuatro'>Campions Tardor 2024</h3>
-        <img src='/champions.jpeg' alt='Winner 3' width={300} height={225} />
+        <img src='/champions.jpg' alt='Xavi i Marc' width={300} height={225} />
         <p className='team-cuatro'>Xavi i Marc</p>
       </div>
     </div>
