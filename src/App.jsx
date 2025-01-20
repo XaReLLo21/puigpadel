@@ -93,10 +93,10 @@ function App() {
 
   return (
     <div>
-      {/* <div className='aviso'>
-        <p className='name'>Marc & David | Xavi & Marc</p>
-        <p>Final Diumenge 19 de gener a las 11:00 </p>
-      </div> */}
+      <div className='aviso'>
+        <p className='name'> Felicitats Xavi i Marc!</p>
+        <p>Campions Tardor 2024 </p>
+      </div>
       <Header />
 
       <h1>Pàdel Tardor de Puigdàlber 2024 </h1>
@@ -113,16 +113,6 @@ function App() {
       </header>
 
       <main>
-        <h2 className='space'>
-          <CgTrophy
-            style={{
-              color: 'steelblue',
-              width: '80px',
-              height: '80px',
-            }}
-          />
-        </h2>
-        <Slutspelet />
         <h1 style={{ color: 'steelblue' }}>Grup A</h1>
         {teams.length > 0 && <TeamList teams={filteredTeamsSorted} />}
 
@@ -198,6 +188,16 @@ function App() {
             <MatchTableD matches={matchesDate.matches} />
           </div>
         )}
+        <h2 className='space'>
+          <CgTrophy
+            style={{
+              color: 'steelblue',
+              width: '80px',
+              height: '80px',
+            }}
+          />
+        </h2>
+        <Slutspelet />
         <Ganadores />
         <FaRegQuestionCircle
           style={{
