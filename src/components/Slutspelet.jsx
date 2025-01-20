@@ -86,7 +86,7 @@ const Slutspel = () => {
       {/* Final */}
       <div className='round'>
         <div className='match'>
-          19/01/2025 11:00 <div className='team-cuatro'>Marc | David</div>
+          19/01/2025 11:00 <div className='team'>Marc | David</div>
           <div className='team-cuatro'>Xavi | Marc</div>
         </div>
       </div>
